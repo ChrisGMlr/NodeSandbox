@@ -1,0 +1,287 @@
+{
+  "strings": {
+    "-xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "string": [
+      {
+        "id": "categoriesSubText",
+        "en": "Showing Landmarks for",
+        "es": "Está viendo los lugares emblemáticos de",
+        "fr": "Afficher les lieux d'intérêt pour",
+        "zh": "显示下列之地标",
+        "ge": "Sehenswürdigkeiten zeigen für  "
+      },
+      {
+        "id": "category0",
+        "en": "ALL CATEGORIES",
+        "es": "TODAS LAS CATEGORÍAS",
+        "fr": "TOUTES LES CATÉGORIES",
+        "zh": "所有类别",
+        "ge": "ALLE KATEGORIEN"
+      },
+      {
+        "id": "category1",
+        "en": "SPORTS",
+        "es": "DEPORTES",
+        "fr": "SPORTS",
+        "zh": "运动",
+        "ge": "SPORT"
+      },
+      {
+        "id": "category2",
+        "en": "MUSIC",
+        "es": "MÚSICA",
+        "fr": "MUSIQUE",
+        "zh": "音乐",
+        "ge": "MUSIK"
+      },
+      {
+        "id": "category3",
+        "en": "CULTURE",
+        "es": "CULTURA",
+        "fr": "CULTURE",
+        "zh": "文化",
+        "ge": "KULTUR"
+      },
+      {
+        "id": "category4",
+        "en": "HISTORY",
+        "es": "HISTORIA",
+        "fr": "HISTOIRE",
+        "zh": "历史",
+        "ge": "GESCHICHTE"
+      },
+      {
+        "id": "modesSubText",
+        "en": "Your Current View",
+        "es": "Su vista actual",
+        "fr": "Votre affichage en cours",
+        "zh": "您的当前视图",
+        "ge": "Ihre aktuelle Anzeige"
+      },
+      {
+        "id": "mode0",
+        "en": "DAY TIME",
+        "es": "DE DÍA",
+        "fr": "PENDANT LA JOURNÉE",
+        "zh": "日间",
+        "ge": "TAGESZEIT"
+      },
+      {
+        "id": "mode1",
+        "en": "NIGHT TIME",
+        "es": "DE NOCHE",
+        "fr": "PENDANT LA NUIT",
+        "zh": "夜间",
+        "ge": "NACHTZEIT"
+      },
+      {
+        "id": "outTheWindow",
+        "en": "OUT THE WINDOW",
+        "es": "FUERA DE LA VENTANA",
+        "fr": "À L'EXTÉRIEUR DE LA FENÊTRE",
+        "zh": "窗外",
+        "ge": "AUS DEM FENSTER"
+      },
+      {
+        "id": "north",
+        "en": "N",
+        "es": "N",
+        "fr": "N",
+        "zh": "北",
+        "ge": "N"
+      },
+      {
+        "id": "east",
+        "en": "E",
+        "es": "E",
+        "fr": "E",
+        "zh": "东",
+        "ge": "O"
+      },
+      {
+        "id": "west",
+        "en": "W",
+        "es": "O",
+        "fr": "O",
+        "zh": "西",
+        "ge": "W"
+      },
+      {
+        "id": "south",
+        "en": "S",
+        "es": "S",
+        "fr": "S",
+        "zh": "南",
+        "ge": "S"
+      },
+      {
+        "id": "resetText",
+        "en": "RESET VIEW",
+        "es": "RESTABLECER VISTA",
+        "fr": "RÉINITIALISER L'AFFICHAGE",
+        "zh": "重置视图",
+        "ge": "ANSICHT ZURÜCKSETZTEN"
+      },
+      {
+        "id": "helpText",
+        "en": "HELP",
+        "es": "AYUDA",
+        "fr": "AIDE",
+        "zh": "帮助",
+        "ge": "HILFE"
+      },
+      {
+        "id": "closeText",
+        "en": "CLOSE",
+        "es": "CERRAR",
+        "fr": "FERMER",
+        "zh": "关闭",
+        "ge": "SCHLIESSEN"
+      },
+      {
+        "id": "mainAreaHelpText",
+        "en": "Explore the Real Philly with your fingers!",
+        "es": "¡Explore la Verdadera Filadelfia con las yemas de los dedos!",
+        "fr": "Explorez le vrai Philly du bout des doigts !",
+        "zh": "用手指探索真实费城！",
+        "ge": "Entdecken Sie das wahre Philly mit Ihren Fingern!"
+      },
+      {
+        "id": "zoomInText",
+        "en": "Spread two fingers apart to zoom in.",
+        "es": "Separe las yemas de dos dedos para ampliar la imagen.",
+        "fr": "Écartez deux doigts pour effectuer un zoom avant.",
+        "zh": "张开双指即可放大。",
+        "ge": "Ziehen Sie zwei Finger auseinander, um einzuzoomen."
+      },
+      {
+        "id": "zoomOutText",
+        "en": "Pinch two fingers together to zoom out.",
+        "es": "Acerque las yemas de dos dedos para reducir la imagen.",
+        "fr": "Resserrez deux doigts pour effectuer un zoom arrière.",
+        "zh": "捏合双指即可缩小。",
+        "ge": "Ziehen Sie zwei Finger zueinander, um auszuzoomen."
+      },
+      {
+        "id": "panText",
+        "en": "Drag one finger to move your view around.",
+        "es": "Deslice un dedo para mover la imagen hacia un lado o hacia el otro.",
+        "fr": "Faites glisser un doigt pour déplacer votre vue.",
+        "zh": "拖移一根手指即可移动您的视角。",
+        "ge": "Ziehen Sie Ihre Ansicht mit einem Finger umher."
+      },
+      {
+        "id": "tapText",
+        "en": "Tap on a point of interest to learn more about it.",
+        "es": "Pulse un punto de interés para desplegar más información sobre él.",
+        "fr": "Tapotez sur un lieu d'intérêt pour en savoir plus à son sujet.",
+        "zh": "点击兴趣点即可进行更多相关了解。",
+        "ge": "Tippen Sie auf einen Punkt von Interesse, um mehr zu erfahren."
+      },
+      {
+        "id": "modesHelpText",
+        "en": "Switch between day and night views of the Real Philly!",
+        "es": "Cambie la luz para ver cómo es la Verdadera Filadelfia de día y cómo es de noche.",
+        "fr": "Basculez entres les vues de jour et de nuit du vrai Philly !",
+        "zh": "在真实费城的日间和夜间视图之间进行切换！",
+        "ge": "Schalten Sie zwischen der Tages- und Nachtansicht des wahren Philly hin und her!"
+      },
+      {
+        "id": "categoriesHelpText",
+        "en": "Filter points of interest by category for a more focused view.",
+        "es": "Filtre los puntos de interés por categorías para conseguir una visión más focalizada.",
+        "fr": "Filtrez les lieux d'intérêt par catégorie pour obtenir une vue plus ciblée.",
+        "zh": "按类别筛选兴趣点，可进行更集中的观看。",
+        "ge": "Filtern Sie interessante Einzelheiten nach Kategorie für eine detailliertere Ansicht."
+      },
+      {
+        "id": "miniViewHelpText",
+        "en": "This mini-viewer shows what part of the Real Philly you’re looking at, and where all points of interest are.",
+        "es": "Este minivisor le muestra qué parte de la Verdadera Filadelfia está viendo y dónde se encuentran todos los puntos de interés.",
+        "fr": "Cette mini visionneuse affiche la partie du vrai Philadelphie que vous regardez, ainsi que l'emplacement de tous les lieux d'intérêt.",
+        "zh": "这个迷你查看器显示您在这个屏幕上看到的视图部分，以及所有所有兴趣点在真正费城中的位置。",
+        "ge": "Dieser Mini-Viewer zeigt Ihnen, welchen Teil des wahren Philly Sie gerade anschauen und wo alle Sehenswürdigkeiten sind."
+      },
+      {
+        "id": "resetButtonHelpText",
+        "en": "Reset your view to its original starting point.",
+        "es": "Restablezca la vista a su punto de inicio original.",
+        "fr": "Réinitialisez votre affichage à son point de départ initial.",
+        "zh": "将您的视图重置为其原始的起始点。",
+        "ge": "Setzen Sie Ihre Ansicht auf den ursprünglichen Ausgangspunkt zurück."
+      },
+      {
+        "id": "languagesHelpText",
+        "en": "Switch to a different language.",
+        "es": "Cambie a otro idioma.",
+        "fr": "Changez de langue.",
+        "zh": "切换到某个不同语言。",
+        "ge": "Wechseln Sie zu einer anderen Sprache."
+      },
+      {
+        "id": "timeOutMainText",
+        "en": "THERE IS SO MUCH MORE TO SEE",
+        "es": "HAY MUCHO MÁS QUE VER",
+        "fr": "IL VOUS RESTE ENCORE TELLEMENT DE CHOSES À VOIR",
+        "zh": "目不暇接",
+        "ge": "ES GIBT NOCH VIEL MEHR ZU SEHEN"
+      },
+      {
+        "id": "timeOutSubText",
+        "en": "JUST DRAG, PINCH, OR SPREAD YOUR FINGERS TO KEEP EXPLORING THE REAL PHILLY",
+        "es": "¡ARRASTRE, PELLIZQUE O SEPARE LOS DEDOS PARA SEGUIR EXPLORANDO LA VERDADERA FILADELFIA!",
+        "fr": "IL VOUS SUFFIT DE FAIRE GLISSER, DE RESSERRER OU D'ÉCARTER VOS DOIGTS AFIN DE POURSUIVRE VOTRE EXPLORATION DU VRAI PHILLY",
+        "zh": "只需拖移、捏合、张开您的手指，就可以不断探索真实的费城",
+        "ge": "ZIEHEN, SPREIZEN ODER ZIEHEN SIE IHRE FINGER ZUEINANDER, UM DAS WAHRE PHILLY ZU ENTDECKEN"
+      },
+      {
+        "id": "timeOutFooter",
+        "en": "If you're done, we'll restart the experience in a few moments...",
+        "es": "Si ya terminó, la experiencia volverá a comenzar dentro de unos momentos...",
+        "fr": "Si vous avez terminé, nous reprendrons cette expérience dans quelques instants...",
+        "zh": "如果您已经完成，我们过一会儿将重新启动这一体验......",
+        "ge": "Wenn Sie fertig sind, starten wir das Ganze in wenigen Augenblicken erneut..."
+      },
+      {
+        "id": "attract1Header",
+        "en": "Explore",
+        "es": "Explorar",
+        "fr": "Explorez",
+        "zh": "探索",
+        "ge": "Entdecken Sie"
+      },
+      {
+        "id": "attract1MainText",
+        "en": "THE REAL PHILLY",
+        "es": "LA VERDADERA FILADELFIA",
+        "fr": "LE VRAI PHILLY",
+        "zh": "真实费城",
+        "ge": "DAS WAHRE PHILLY"
+      },
+      {
+        "id": "attract1Footer",
+        "en": "USE YOUR FINGERS TO PAN, ZOOM, AND TAP TO DISCOVER WHAT PHILLY HAS TO OFFER",
+        "es": "UTILICE LOS DEDOS PARA HACER UN MOVIMIENTO PANORÁMICO, ACERCAR LA IMAGEN, O PULSE PARA DESCUBRIR TODO LO QUE FILADELFIA LE OFRECE.",
+        "fr": "EFFECTUEZ UN PANORAMIQUE, UN ZOOM ET TAPOTEZ À L'AIDE DE VOS DOIGTS POUR DÉCOUVRIR CE QUE PHILLY A À VOUS OFFRIR",
+        "zh": "用您的手指平移、缩放和点击，发现费城的独到之处",
+        "ge": "VERWENDEN SIE IHRE FINGER, UM DIE ANSICHT ZU DREHEN, EIN- ODER AUSZUZOOMEN UND DURCH ANTIPPEN ZU ENTDECKEN, WAS PHILLY ALLES ZU BIETEN HAT"
+      },
+      {
+        "id": "attract2MainText",
+        "en": "TAP ANYWHERE TO BEGIN",
+        "es": "PULSE EN CUALQUIER PARTE PARA COMENZAR",
+        "fr": "TAPOTEZ N'IMPORTE OÙ POUR DÉMARRER",
+        "zh": "点击任何位置即可开始",
+        "ge": "TIPPEN SIE AN EINER BELIEBIGEN STELLE, UM ZU BEGINNEN"
+      },
+      {
+        "id": "attract2Footer",
+    "en": "USE YOUR FINGERS TO PAN, ZOOM, AND TAP TO DISCOVER WHAT PHILLY HAS TO OFFER",
+    "es": "UTILICE LOS DEDOS PARA HACER UN MOVIMIENTO PANORÁMICO, ACERCAR LA IMAGEN, O PULSE PARA DESCUBRIR TODO LO QUE FILADELFIA LE OFRECE.",
+    "fr": "EFFECTUEZ UN PANORAMIQUE, UN ZOOM ET TAPOTEZ À L'AIDE DE VOS DOIGTS POUR DÉCOUVRIR CE QUE PHILLY A À VOUS OFFRIR",
+    "zh": "用您的手指平移、缩放和点击，发现费城的独到之处",
+    "ge": "VERWENDEN SIE IHRE FINGER, UM DIE ANSICHT ZU DREHEN, EIN- ODER AUSZUZOOMEN UND DURCH ANTIPPEN ZU ENTDECKEN, WAS PHILLY ALLES ZU BIETEN HAT"
+      }
+    ]
+  }
+}

@@ -1,0 +1,689 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>EBX Tablet</title>
+    <link rel="stylesheet" type="text/css" href="libs/slick.css" />
+    <link rel="stylesheet" type="text/css" href="libs/slick-theme.css" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="stylesheet" href="libs/jquery-ui.css" type="text/css" media="all" />
+    <link rel="stylesheet" type="text/css" href="libs/technologymantracombo.css" />
+    <script type="text/javascript" src="libs/jquery-2.1.4.js"></script>
+    <script type="text/javascript" src="libs/jquery.easing.1.3.js"></script>
+    <script type="text/javascript" src="libs/slick.js"></script>
+    <script type="text/javascript" src="libs/socket.io.js"></script>
+    <script type="text/javascript" src="libs/lodash.js"></script>
+    <script type="text/javascript" src="libs/shifty.min.js"></script>
+    <script type="text/javascript" src="libs/rekapi.js"></script>
+    <script type="text/javascript" src="libs/mustache.min.js"></script>
+    <script type="text/javascript" src="libs/backbone.js"></script>
+    <script type="text/javascript" src="libs/ampm.js"></script>
+    <script type="text/javascript" src="libs/stats.min.js"></script>
+    <script type="text/javascript" src="libs/embedpano.js"></script>
+    <script type="text/javascript" src="libs/pep.js"></script>
+    <script type="text/javascript" src="libs/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="libs/technologymantracombo.js"></script>
+    <script type="text/javascript" src="js/App.js"></script>
+    <script type="text/javascript" src="js/Models/AppModel.js"></script>
+    <script type="text/javascript" src="js/Views/AppView.js"></script>
+    <script type="text/javascript" src="js/Models/ControlsModel.js"></script>
+    <script type="text/javascript" src="js/Views/ControlsView.js"></script>
+    <script type="text/javascript" src="js/Views/CategoriesView.js"></script>
+    <script type="text/javascript" src="js/Models/CategoryModel.js"></script>
+    <script type="text/javascript" src="js/Models/CategoriesCollection.js"></script>
+    <script type="text/javascript" src="js/Models/ModeModel.js"></script>
+    <script type="text/javascript" src="js/Models/ModesCollection.js"></script>
+    <script type="text/javascript" src="js/Views/ModesView.js"></script>
+    <script type="text/javascript" src="js/Views/MiniView.js"></script>
+    <script type="text/javascript" src="js/Models/MiniModel.js"></script>
+    <script type="text/javascript" src="js/Views/ResetView.js"></script>
+    <script type="text/javascript" src="js/Models/ResetModel.js"></script>
+    <script type="text/javascript" src="js/Views/HelpView.js"></script>
+    <script type="text/javascript" src="js/Models/HelpModel.js"></script>
+    <script type="text/javascript" src="js/Views/HelpOverlayView.js"></script>
+    <script type="text/javascript" src="js/Models/HelpOverlayModel.js"></script>
+    <script type="text/javascript" src="js/Models/StringsModel.js"></script>
+    <script type="text/javascript" src="js/Views/LanguagesView.js"></script>
+    <script type="text/javascript" src="js/Models/LanguagesCollection.js"></script>
+    <script type="text/javascript" src="js/Models/LanguageModel.js"></script>
+    <script type="text/javascript" src="js/Views/PanoView.js"></script>
+    <script typu="text/javascript" src="js/Models/PanoModel.js"></script>
+    <script type="text/javascript" src="js/Views/POIView.js"></script>
+    <script type="text/javascript" src="js/Models/POIModel.js"></script>
+    <script type="text/javascript" src="js/Views/POICollectionView.js"></script>
+    <script type="text/javascript" src="js/Models/POICollection.js"></script>
+    <script type="text/javascript" src="js/Views/POIEditorView.js"></script>
+    <script type="text/javascript" src="js/Models/POIEditorModel.js"></script>
+    <script type="text/javascript" src="js/Views/CubePOIView.js"></script>
+    <script type="text/javascript" src="js/Models/CubePOIModel.js"></script>
+    <script type="text/javascript" src="js/Views/AttractView.js"></script>
+    <script type="text/javascript" src="js/Models/AttractModel.js"></script>
+    <script type="text/javascript" src="js/Views/FullScreenView.js"></script>
+    <script type="text/javascript" src="js/Models/FullScreenModel.js"></script>
+    <script type="text/template" id="rootTemplate">
+        <div id="appRoot">
+            <div id="controlsView" class="noselect" touch-action="none">
+            </div>
+            <div id="languagesView" touch-action="none">
+            </div>
+            <div id="helpOverlayView" class="noselect" touch-action="none">
+            </div>
+            <div id="poiContainer" touch-action="none">
+            </div>
+            <div id="panoView" touch-action="none">
+            </div>
+            <div id="attractView" class="noselect" touch-action="none">
+            </div>
+            <div id="fullScreenView" class="noselect" touch-action="none">
+            </div>
+            <div id="battery"><img class="batteryIcon"></div>
+            <div id="editorUI">
+                <div id="poiList"></div>
+                <div id="poiInfoBox"></div>
+            </div>
+            <div id="loadingScreen" class="active">
+                <div class="loadingGIF">
+                    <!-- <video width="259" height="188" autoplay loop>
+                     <source src="http://localhost:8000/app/content/resources/gui/loading.webm" type="video/webm">
+                    Your browser does not support the video tag.
+                    </video> -->
+                </div>
+            </div>
+        </div>
+    </script>
+    <script type="text/template" id="controlsTemplate">
+        <div id="modesView" onselectstart="return false"></div>
+        <div id="categoriesView"></div>
+        <div class="verticalLine noselect"></div>
+        <div id="helpView" touch-action="none"></div>
+        <div id="resetView" touch-action="none"></div>
+        <!--<div id="outerMiniView">
+        <div class="outTheWindowBox">
+            <div class="leftTriangle">
+                <svg x="0px" y="0px" viewBox="0 0 82.355 329.419" style="enable-background:new 0 0 82.355 329.419;" xml:space="preserve">
+                <polygon style="opacity:0.6;fill:#231F20;enable-background:new    ;" points="82.355,329.419 0,164.709 82.355,0 "/>
+                </svg>
+            </div>
+                <div class="outTheWindowBG">
+                </div>
+            <div class="rightTriangle">
+                <svg x="0px" y="0px" viewBox="0 0 82.355 329.419" style="enable-background:new 0 0 82.355 329.419;" xml:space="preserve">
+                <polygon style="opacity:0.6;fill:#231F20;enable-background:new    ;" points="0,0 82.355,164.709 0,329.419 "/>
+                </svg>
+            </div>
+        </div>
+            <br>
+            <div class="miniBorder">
+                <div class="innerline">
+                <div id="miniView"></div>
+                </div>
+            </div>
+            <div class="directions">
+            </div>
+        </div>
+        <div>
+        -->
+    </script>
+    <script type="text/template" id="helpOverlayTemplate">
+        <!-- <div id="modesHelpText">
+        </div> -->
+    </script>
+    <script type="text/template" id="categoriesTemplate">
+        <div class="categoryList nobullets"></div>
+        <div id="categoriesDropDown" class="noselect" touch-action="none">
+            <div class="transborder" touch-action="none">
+                <div class="hiddenSelect" style="pointer-events: none">
+                    {{#categories}}
+                    <div class="hiddenSelectDivs">{{name}}
+                        <div class='dropDownIcon'>
+                            <div class="dropDownArrow"></div>
+                            <div class="dropUpArrow"></div>
+                        </div>
+                    </div>
+                    {{/categories}}
+                </div>
+                <div class="actualSelect">
+                    <div class="selectedDiv">
+                        <div class="mainText"></div>
+                    </div>
+                    <div class='dropDownIcon'>
+                        <div class="dropDownArrow"></div>
+                        <div class="dropUpArrow"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </script>
+    <script type="text/template" id="categoryTemplate">
+        <div>
+            <div class="hiddenOption noselect" style="pointer-events: none">
+                {{#categories}}
+                <div class="hiddenOptionDivs">
+                    <div class="{{id}}Icon"></div>{{name}}</div>
+                {{/categories}}
+            </div>
+            <div class="actualOption">
+                <div id="{{id}}" class="noselect categoryOption" touch-action="none">
+                    <div class="optionLabel">
+                        <!--<div class="{{id}}Icon">--></div>{{categoryName}}</div>
+            </div>
+        </div>
+        </div>
+    </script>
+    <script type="text/template" id="categoryEditorTemplate">
+        <option id="{{id}}">{{categoryName}}</option>
+    </script>
+    <script type="text/template" id="modeEditorTemplate">
+        <option id="{{id}}">{{modeName}}</option>
+    </script>
+    <script type="text/template" id="modesTemplate">
+        <div class="modeList nobullets"></div>
+        <div id="modesDropDown" class="noselect" touch-action="none">
+            <div class="transborder" touch-action="none">
+                <div class="hiddenSelect" style="pointer-events: none">
+                    {{#modes}}
+                    <div class="hiddenSelectDivs">{{name}}
+                        <div class='dropDownIcon'>
+                            <svg class="dropUpArrow" x="0px" y="0px" viewBox="0 0 20 12.279">
+                                <polygon fill="#FFFFFF" points="10.019,0 0,10.017 0,12.279 10.019,2.26 20,12.24 20,9.977 " />
+                            </svg>
+                            <svg class="dropDownArrow" x="0px" y="0px" viewBox="0 0 20 12.279" style="enable-background:new 0 0 20 12.279;">
+                                <g>
+                                    <polygon fill="#FFFFFF" points="9.98,12.279 20,2.263 20,0 9.98,10.019 0,0.039 0,2.302    " />
+                                </g>
+                            </svg>
+                        </div>
+                    </div>
+                    {{/modes}}
+                </div>
+                <div class="actualSelect">
+                    <div class="selectedDiv">
+                        <div class="modesSubText">{{modesSubText}}</div>
+                        <div class="mainText"></div>
+                    </div>
+                    <div class='dropDownIcon'>
+                        <!-- The space between the div and the icon is required by CategoriesView.js to replace text properly -->
+                        <svg class="dropUpArrow" x="0px" y="0px" viewBox="0 0 20 12.279">
+                            <polygon fill="#FFFFFF" points="10.019,0 0,10.017 0,12.279 10.019,2.26 20,12.24 20,9.977 " />
+                        </svg>
+                        <svg class="dropDownArrow" x="0px" y="0px" viewBox="0 0 20 12.279" style="enable-background:new 0 0 20 12.279;">
+                            <g>
+                                <polygon fill="#FFFFFF" points="9.98,12.279 20,2.263 20,0 9.98,10.019 0,0.039 0,2.302    " />
+                            </g>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </script>
+    <script type="text/template" id="modeTemplate">
+        <div>
+            <div class="hiddenOption noselect" style="pointer-events: none">
+                {{#modes}}
+                <div class="hiddenOptionDivs">
+                    <div class="{{id}}Icon"></div>{{name}}</div>
+                {{/modes}}
+            </div>
+            <div class="actualOption">
+                <div id="{{id}}" class="noselect modeOption" touch-action="none">
+                    <div class="optionLabel">
+                        <div class="{{id}}Icon"></div>{{modeName}}</div>
+                </div>
+            </div>
+        </div>
+    </script>
+    <script type="text/template" id="miniTemplate">
+        <div id="miniDisplay">
+            <div id="transbox"></div>
+            <div id="transbox" class="secondBox" display="none"></div>
+        </div>
+    </script>
+    <script type="text/template" id="miniPOITemplate">
+        <div id="{{cid}}" class="miniPOI"></div>
+    </script>
+    <script type="text/template" id="resetTemplate">
+        <button id="resetButton" class="noselect inactive" touch-action="none">
+            <div>{{resetText}}</div>
+            <!--<svg x="0px" y="0px" viewBox="0 0 17.81 19.922" class="resetIcon">
+                <path fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" d="M3.904,15.035C2.131,13.578,1,11.379,1,8.905
+                C1,4.541,4.537,1,8.905,1c4.37,0,7.905,3.541,7.905,7.905c0,4.008-2.98,7.328-6.849,7.837"/>
+                <polyline fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" points="14.121,19 8.905,16.813 12.236,12.24      
+                "/>
+            </svg>
+            -->
+            <div class="resetIcon" />
+        </button>
+    </script>
+    <script type="text/template" id="helpTemplate">
+        <button id="helpButton" class="noselect" touch-action="none">
+            <div>
+                {{helpText}}
+                <!--<svg x="0px" y="0px" viewBox="0 0 14.549 21" class="helpIcon">
+                    <g>
+                        <path fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" d="M1,7.274C1,3.812,3.809,1,7.274,1
+                        c3.463,0,6.274,2.812,6.274,6.274c0,3.464-2.812,6.274-6.274,6.274v2.689"/>
+                        <circle fill="#FFFFFF" cx="7.274" cy="19.582" r="1.418"/>
+                    </g>
+                </svg>
+
+            </div>
+
+            <div style="opacity: 0">
+                {{closeText}}
+                <svg x="0px" y="0px" viewBox="0 0 14.549 21" class="helpIcon">
+                    <g>
+                        <path fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" d="M1,7.274C1,3.812,3.809,1,7.274,1
+                        c3.463,0,6.274,2.812,6.274,6.274c0,3.464-2.812,6.274-6.274,6.274v2.689"/>
+                        <circle fill="#FFFFFF" cx="7.274" cy="19.582" r="1.418"/>
+                    </g>
+                </svg>  -->
+            </div>
+            <div class="helpIcon" />
+        </button>
+        <!--
+        <button id="closeButton" class="noselect" touch-action="none">
+            <div>
+                {{closeText}}
+                <svg x="0px" y="0px" viewBox="0 0 16.664 16.664" style="enable-background:new 0 0 16.664 16.664;" xml:space="preserve" class="helpIcon">
+                    <g>
+                        <line fill="none" stroke="#FFFFFF" style="stroke-width:2;stroke-miterlimit:10;" x1="0.707" y1="0.707" x2="15.957" y2="15.957"/>
+                        <line fill="none" stroke="#FFFFFF" style="stroke-width:2;stroke-miterlimit:10;" x1="15.957" y1="0.707" x2="0.707" y2="15.957"/>
+                    </g>
+                </svg>
+            </div>
+
+            <div style="opacity: 0">
+                {{helpText}}
+                <svg x="0px" y="0px" viewBox="0 0 14.549 21" class="helpIcon">
+                    <g>
+                        <path fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" d="M1,7.274C1,3.812,3.809,1,7.274,1
+                        c3.463,0,6.274,2.812,6.274,6.274c0,3.464-2.812,6.274-6.274,6.274v2.689"/>
+                        <circle fill="#FFFFFF" cx="7.274" cy="19.582" r="1.418"/>
+                    </g>
+                </svg>
+            </div>
+        </button>
+        -->
+    </script>
+    <script type="text/template" id="languagesTemplate">
+        <div class="languageList nobullets"></div>
+        <div id="languagesDropDown" class="noselect" touch-action="none">
+            <div class="transborder" touch-action="none">
+                <div class="actualSelect">
+                    <div class="selectedDiv"><img src="content/resources/gui/en.svg" width="63" height="42" />
+                        <div class='dropDownIcon'>
+                            <!-- The space between the div and the icon is required by LanguagesView.js to replace text properly -->
+                            <svg class="dropUpArrow" x="0px" y="0px" viewBox="0 0 20 12.279">
+                                <polygon fill="#FFFFFF" points="10.019,0 0,10.017 0,12.279 10.019,2.26 20,12.24 20,9.977 " />
+                            </svg>
+                            <svg class="dropDownArrow" x="0px" y="0px" viewBox="0 0 20 12.279" style="enable-background:new 0 0 20 12.279;">
+                                <g>
+                                    <polygon fill="#FFFFFF" points="9.98,12.279 20,2.263 20,0 9.98,10.019 0,0.039 0,2.302    " />
+                                </g>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </script>
+    <script type="text/template" id="languageTemplate">
+        <div>
+            <div class="actualOption">
+                <div id="{{id}}" class="noselect languageOption" touch-action="none">
+                    <div class="optionLabel"><img src="{{image}}" width="63" height="42" /></div>
+                </div>
+            </div>
+        </div>
+    </script>
+    <script type="text/template" id="poiContainerTemplate">
+        <div id="poiContainer"></div>
+    </script>
+    <script type="text/template" id="poiShowTemplate">
+        <div id="poiShow" tabindex="1">
+            <form id="poieditorform" class="unselectable" tabindex="2">
+                ID :
+                <br>
+                <input type="text" id="poieditorid"></input>
+                <br>
+                <input type="button" id="poieditorrevealzoom" value="Reveal Zoom" />
+                <div id="revealzoomdisplay"></div>
+                <br>
+                <input type="button" id="poieditordescriptionzoom" value="Description Zoom" />
+                <div id="descriptionzoomdisplay"></div>
+                <br>
+                <input type="button" id="poieditorsave" value="Save" />
+                <br>
+            </form>
+        </div>
+    </script>
+    <script type="text/template" id="poiViewTemplate">
+        <div id="poiTitle" touch-action="none">
+            <div class="poiTitleBG">
+                <!--{{#categories}}{{.}}{{/categories}}">-->
+                <div>{{{title}}}</div>
+                <!-- <span> -->
+                <!-- <img class="catIcon" src="{{catIcon}}"/> -->
+                <!-- <img class="catIcon catIconPressed" src="{{catIconPressed}}"/> -->
+                <!-- </span> -->
+            </div>
+            <br>
+            <div class="poiTail"></div>
+            <div class="poiTailSelected">
+                <!--{{#categories}}{{.}}{{/categories}}"-->
+            </div>
+        </div>
+        <div id="poiIcon" touch-action="none"><img src="{{normalIcon}}"></div>
+        <!--Replace normalIcon with dotIcon to get the colored poicons-->
+        <div id="backCrossIcon" touch-action="none">
+            <img src="{{backCrossIcon}}">
+            <div class="crossIcon" touch-action="none">
+                <img src="{{crossButton}}">
+            </div>
+            <div class="backIcon" touch-action="none">
+                <img src="{{backButton}}">
+            </div>
+        </div>
+        <div id="caseStudyBox" touch-action="none">
+            <div class="caseStudyList">
+                {{#caseStudies}}
+                <div class="csOptionContainer">
+                    <div class="hiddenOption noselect" style="pointer-events: none">
+                        {{#caseStudies}}
+                        <div class="hiddenOptionDivs">{{{caseStudyName.en}}}</div>
+                        {{/caseStudies}}
+                    </div>
+                    <div class="actualOption">
+                        <div class="noselect caseStudyOption" touch-action="none">
+                            <div>{{{caseStudyName.en}}}</div>
+                        </div>
+                    </div>
+                </div>
+                {{/caseStudies}}
+            </div>
+        </div>
+        <div class="descBox">
+            <div class="descBorder" style="pointer-events:auto!important">
+                {{#caseStudies}}
+                <div>
+                    <div class="caseStudyDescContainer">
+                        <div class="descriptionTitle">
+                            <div>{{{descriptionTitle.en}}}</div>
+                            <div class="descBreak"><img src="content/resources/gui/descBreak.png" /></div>
+                        </div>
+                        <div class="descriptionBody noselect" style="cursor:pointer" touch-action="none">
+                            <div style="pointer-events:none!important">{{{descriptionBody.en}}}</div>
+                        </div>
+                        <div class="descFadeOff"></div>
+                    </div>
+                </div>
+                {{/caseStudies}}
+            </div>
+        </div>
+        <div class="mediaBox" touch-action="none">
+            <div class="mediaBorder">
+                {{#caseStudies}}
+                <div>
+                    <div id="imageBox">
+                        {{#media}}
+                        <div style="position: relative;">
+                            <div class="mediaTitle">{{{title.en}}}</div>
+                            {{#video}}
+                            <div>
+                                <video class="poiVideo" poster="cmscontent{{image}}" preload="none" touch-action="none">
+                                    <source src="cmscontent{{video}}" type="video/ogg">
+                                </video>
+                                <div class="playButton noselect"></div>
+                                <div class="fullScreenButton noselect" touch-action="none"></div>
+                            </div>
+                            {{/video}} {{^video}}
+                            <div>
+                                {{#image}}<img class="poiImage" src="cmscontent{{image}}" />{{/image}}
+                            </div>
+                            {{/video}}
+                        </div>
+                        {{/media}}
+                    </div>
+                </div>
+                {{/caseStudies}}
+            </div>
+        </div>
+    </script>
+    <script type="text/template" id="fullScreenTemplate">
+        <div class="fullScreenVideo">
+            <video class="poiVideoFullScreen" poster="" preload="none" touch-action="none">
+                <source src="" type="video/ogg">
+            </video>
+            <div class="normalScreenButton noselect"></div>
+            <div class="fullScreenPlayButton noselect" touch-action="none"></div>
+        </div>
+    </script>
+    <script type="text/template" id="outTheWindowTemplate">
+        <div>{{outTheWindow}}</div>
+    </script>
+    <script type="text/template" id="directionsTemplate">
+        <div class="north">{{north}}</div>
+        <div class="east">{{east}}</div>
+        <div class="south">{{south}}</div>
+        <div class="west">{{west}}</div>
+    </script>
+    <script type="text/template" id="panoTemplate">
+        <div id="pano"></div>
+    </script>
+    <script type="text/template" id="toolTipTemplate">
+        <!-- 
+    <div id="modesHelpText">
+        <div class="helptext">{{modesHelpText}}</div>
+        <div class="helpTail">
+            <svg x="0px" y="0px" viewBox="0 0 14.001 30" style="enable-background:new 0 0 14.001 30;" xml:space="preserve">
+                <polygon style="fill:#0076A8;" points="0,0 6.988,30 14.001,0 "/>
+            </svg>
+        </div>
+    </div>
+ -->
+        <div id="categoriesHelpText">
+            <div class="helptext">{{categoriesHelpText}}</div>
+            <div class="helpTail">
+                <!-- <svg x="0px" y="0px" viewBox="0 0 14.001 30" style="enable-background:new 0 0 14.001 30;" xml:space="preserve">
+                <polygon style="fill:#0076A8;" points="0,0 6.988,30 14.001,0 "/>
+            </svg> -->
+            </div>
+        </div>
+        <!-- 
+    <div id="miniViewHelpText">
+        <div class="helptext">{{miniViewHelpText}}</div>
+        <div class="helpTail">
+            <svg x="0px" y="0px" viewBox="0 0 14.001 30" style="enable-background:new 0 0 14.001 30;" xml:space="preserve">
+                <polygon style="fill:#0076A8;" points="0,0 6.988,30 14.001,0 "/>
+            </svg>
+        </div>
+    </div>
+ -->
+        <div id="resetButtonHelpText">
+            <div class="helptext">{{resetButtonHelpText}}</div>
+            <div class="helpTail">
+                <!-- <svg x="0px" y="0px" viewBox="0 0 14.001 30" style="enable-background:new 0 0 14.001 30;" xml:space="preserve">
+                <polygon style="fill:#0076A8;" points="0,0 6.988,30 14.001,0 "/>
+            </svg> -->
+            </div>
+        </div>
+        <!--  <div id="languagesHelpText">
+        <div class="helptext">{{languagesHelpText}}</div>
+        <div class="helpTail">
+            <svg x="0px" y="0px" viewBox="0 0 14.001 30" style="enable-background:new 0 0 14.001 30;" xml:space="preserve">
+                <polygon style="fill:#0076A8;" points="0,0 6.988,30 14.001,0 "/>
+            </svg>
+        </div>
+    </div>
+ -->
+        <div id="mainAreaHelpText">
+            <div class="upArrow">
+                <svg x="0px" y="0px" viewBox="0 0 35.4 23" style="enable-background:new 0 0 35.4 23;" xml:space="preserve">
+                    <style type="text/css">
+                    .st0 {
+                        fill: #C7DA2C;
+                        stroke: #C7DA2C;
+                        stroke-width: 4;
+                        stroke-linejoin: round;
+                        stroke-miterlimit: 10;
+                    }
+                    </style>
+                    <g>
+                        <g>
+                            <polygon class="st0" points="2,21 17.7,2 33.4,21        " />
+                        </g>
+                    </g>
+                </svg>
+            </div>
+            <div class="mainAreaContainer">
+                <div class="leftArrow">
+                    <svg x="0px" y="0px" viewBox="0 0 23 35.4" style="enable-background:new 0 0 23 35.4;" xml:space="preserve">
+                        <style type="text/css">
+                        .st0 {
+                            fill: #C7DA2C;
+                            stroke: #C7DA2C;
+                            stroke-width: 4;
+                            stroke-linejoin: round;
+                            stroke-miterlimit: 10;
+                        }
+                        </style>
+                        <g>
+                            <g>
+                                <polygon class="st0" points="21,2 2,17.7 21,33.4        " />
+                            </g>
+                        </g>
+                    </svg>
+                </div>
+                <div class="mainhelptext">{{mainAreaHelpText}}</div>
+                <div class="rightArrow">
+                    <svg x="0px" y="0px" viewBox="0 0 23 35.4" style="enable-background:new 0 0 23 35.4;" xml:space="preserve">
+                        <style type="text/css">
+                        .st0 {
+                            fill: #C7DA2C;
+                            stroke: #C7DA2C;
+                            stroke-width: 4;
+                            stroke-linejoin: round;
+                            stroke-miterlimit: 10;
+                        }
+                        </style>
+                        <g>
+                            <g>
+                                <polygon class="st0" points="2,2 21,17.7 2,33.4         " />
+                            </g>
+                        </g>
+                    </svg>
+                </div>
+            </div>
+            <div class="downArrow">
+                <svg x="0px" y="0px" viewBox="0 0 35.4 23" style="enable-background:new 0 0 35.4 23;" xml:space="preserve">
+                    <style type="text/css">
+                    .st0 {
+                        fill: #C7DA2C;
+                        stroke: #C7DA2C;
+                        stroke-width: 4;
+                        stroke-linejoin: round;
+                        stroke-miterlimit: 10;
+                    }
+                    </style>
+                    <g>
+                        <g>
+                            <polygon class="st0" points="2,2 17.7,21 33.4,2         " />
+                        </g>
+                    </g>
+                </svg>
+            </div>
+            <!-- <div class="linebreak"></div> -->
+            <div class="iconTiles">
+                <div class="zoomInContainer">
+                    <div class="helpImage"><img src="content/resources/gui/zoomin.svg"></div>
+                    <div class="helptext">{{zoomInText}}</div>
+                </div>
+                <div class="zoomOutContainer">
+                    <div class="helpImage"><img src="content/resources/gui/zoomout.svg"></div>
+                    <div class="helptext">{{zoomOutText}}</div>
+                </div>
+                <div class="panContainer">
+                    <div class="helpImage"><img src="content/resources/gui/pan.svg"></div>
+                    <div class="helptext">{{panText}}</div>
+                </div>
+                <div class="tapContainer">
+                    <div class="helpImage"><img src="content/resources/gui/tap.svg"></div>
+                    <div class="helptext">{{tapText}}</div>
+                </div>
+            </div>
+        </div>
+    </script>
+    <script type="text/template" id="poiconTemplate">
+        <div id="poiIcon" style="background-image: url({{normalIcon}});"></div>
+    </script>
+    <script type="text/template" id="attractTemplate">
+        <div id="timeOut">
+            <div class="timeOutMainText">{{timeOutMainText}}</div>
+            <br>
+            <div class="timeOutSubText">{{timeOutSubText}}</div>
+            <br>
+            <div class="timeOutFooter">{{timeOutFooter}}</div>
+            <br>
+            <div class="timeSlider">
+                <div class="slider"></div>
+            </div>
+        </div>
+        <div id="attract1">
+            <div class="clientLogo"></div>
+            <div class="attract1Header">{{attract1Header}}</div>
+            <br>
+            <div class="redBar">
+                <svg x="0px" y="0px" viewBox="0 0 26 2.6" style="enable-background:new 0 0 26 2.6;" xml:space="preserve">
+                    <style type="text/css">
+                    .st1 {
+                        fill: #FFFFFF!important;
+                    }
+                    </style>
+                    <rect class="st1" width="26" height="2.6" />
+                </svg>
+            </div>
+            <br>
+            <div class="attract1MainText1">{{attract1MainText1}}</div>
+            <div class="attract1MainText2">{{attract1MainText2}}</div>
+            <!--             <div class="whiteLine"></div>
+ -->
+            <div class="attract1Footer">{{attract1Footer}}</div>
+        </div>
+        <!--  <div id="attract2">
+            <div class="attract2MainText">{{attract2MainText}}</div>
+            <div class="whiteLine"></div>
+            <div class="attract2Footer">{{attract2Footer}}</div>
+        </div> -->
+    </script>
+    <script type="text/template" id="editorDropDownTemplate">
+        <select id="poiSelect">
+            {{#pois}}
+            <option id={{id}}>{{title.en}}</option>
+            {{/pois}}
+        </select>
+    </script>
+    <script type="text/template" id="editorDetails">
+        <div id="poiEditorDetails">
+            <div id="poiEditorID">ID : {{id}}</div>
+            <br>
+            <div id="poiEditorTitle">Title : {{title.en}}</div>
+            <br>
+            <div id="poiEditorDescription">Description : {{description.en}}</div>
+            <br>
+            <div id="poiEditorCategories">Categories : {{categories}}</div>
+            <br>
+            <div id="poiEditorModes">Modes : {{modes}}</div>
+            <br>
+            <div id="isSurpriseSpot">Mystery Spot? : {{isSurpriseSpot}}</div>
+            <br>
+            <div id="poiEditorImages">#Images : </div>
+        </div>
+    </script>
+</head>
+
+<body touch-action="none">
+</body>
+
+</html>

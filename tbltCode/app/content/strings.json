@@ -1,0 +1,400 @@
+{
+    "languages": [{
+        "language": "English",
+        "id": "en",
+        "image": "content/resources/gui/en.svg"
+    }, {
+        "language": "Spanish",
+        "id": "es",
+        "image": "content/resources/gui/es.svg"
+    }, {
+        "language": "French",
+        "id": "fr",
+        "image": "content/resources/gui/fr.svg"
+    }, {
+        "language": "Chinese",
+        "id": "zh",
+        "image": "content/resources/gui/zh.svg"
+    }, {
+        "language": "German",
+        "id": "ge",
+        "image": "content/resources/gui/ge.svg"
+    }],
+    "uistrings": {
+        "categories": {
+            "en": [{
+                "name": "All Categories",
+                "id": "all"
+            }, {
+                "name": "Technologies",
+                "id": "tch"
+            }, {
+                "name": "Solar",
+                "id": "sol"
+            }, {
+                "name": "Energy Efficiency",
+                "id": "enrgeffcy"
+            }, {
+                "name": "Power / Electricity",
+                "id": "pwrelec"
+            }, {
+                "name": "Natural Gas",
+                "id": "natgas"
+            }, {
+                "name": "Home Services",
+                "id": "hmser"
+            }, {
+                "name": "Load Response",
+                "id": "ldres"
+            }],
+            "es": [{
+                "name": "All Categories",
+                "id": "all"
+            }, {
+                "name": "Technologies",
+                "id": "tch"
+            }, {
+                "name": "Solar",
+                "id": "sol"
+            }, {
+                "name": "Energy Efficiency",
+                "id": "enrgeffcy"
+            }, {
+                "name": "Power / Electricity",
+                "id": "pwrelec"
+            }, {
+                "name": "Natural Gas",
+                "id": "natgas"
+            }, {
+                "name": "Home Services",
+                "id": "hmser"
+            }, {
+                "name": "Load Response",
+                "id": "ldres"
+            }],
+            "fr": [{
+                "name": "All Categories",
+                "id": "all"
+            }, {
+                "name": "Technologies",
+                "id": "tch"
+            }, {
+                "name": "Solar",
+                "id": "sol"
+            }, {
+                "name": "Energy Efficiency",
+                "id": "enrgeffcy"
+            }, {
+                "name": "Power / Electricity",
+                "id": "pwrelec"
+            }, {
+                "name": "Natural Gas",
+                "id": "natgas"
+            }, {
+                "name": "Home Services",
+                "id": "hmser"
+            }, {
+                "name": "Load Response",
+                "id": "ldres"
+            }],
+            "zh": [{
+                "name": "All Categories",
+                "id": "all"
+            }, {
+                "name": "Technologies",
+                "id": "tch"
+            }, {
+                "name": "Solar",
+                "id": "sol"
+            }, {
+                "name": "Energy Efficiency",
+                "id": "enrgeffcy"
+            }, {
+                "name": "Power / Electricity",
+                "id": "pwrelec"
+            }, {
+                "name": "Natural Gas",
+                "id": "natgas"
+            }, {
+                "name": "Home Services",
+                "id": "hmser"
+            }, {
+                "name": "Load Response",
+                "id": "ldres"
+            }],
+            "ge": [{
+                "name": "All Categories",
+                "id": "all"
+            }, {
+                "name": "Technologies",
+                "id": "tch"
+            }, {
+                "name": "Solar",
+                "id": "sol"
+            }, {
+                "name": "Energy Efficiency",
+                "id": "enrgeffcy"
+            }, {
+                "name": "Power / Electricity",
+                "id": "pwrelec"
+            }, {
+                "name": "Natural Gas",
+                "id": "natgas"
+            }, {
+                "name": "Home Services",
+                "id": "hmser"
+            }, {
+                "name": "Load Response",
+                "id": "ldres"
+            }]
+        },
+        "modes": {
+            "en": [{
+                "name": "DAY TIME",
+                "id": "day"
+            }, {
+                "name": "NIGHT TIME",
+                "id": "night"
+            }],
+            "es": [{
+                "name": "DE DÍA",
+                "id": "day"
+            }, {
+                "name": "DE NOCHE",
+                "id": "night"
+            }],
+            "fr": [{
+                "name": "PENDANT LA JOURNÉE",
+                "id": "day"
+            }, {
+                "name": "PENDANT LA NUIT",
+                "id": "night"
+            }],
+            "zh": [{
+                "name": "日间",
+                "id": "day"
+            }, {
+                "name": "夜间",
+                "id": "night"
+            }],
+            "ge": [{
+                "name": "TAGESZEIT",
+                "id": "day"
+            }, {
+                "name": "NACHTZEIT",
+                "id": "night"
+            }]
+        },
+        "helpText": {
+            "en": "HELP",
+            "es": "AYUDA",
+            "fr": "AIDE",
+            "zh": "帮助",
+            "ge": "HILFE"
+        },
+        "resetText": {
+            "en": "RESET VIEW",
+            "es": "RESTABLECER VISTA",
+            "fr": "RÉINITIALISER L'AFFICHAGE",
+            "zh": "重置视图",
+            "ge": "ANSICHT ZURÜCKSETZTEN"
+        },
+        "modesHelpText": {
+            "en": "Switch between day and night views of the Real Philly!",
+            "es": "Cambie la luz para ver cómo es la Verdadera Filadelfia de día y cómo es de noche.",
+            "fr": "Basculez entres les vues de jour et de nuit du vrai Philly !",
+            "zh": "在真实费城的日间和夜间视图之间进行切换！",
+            "ge": "Schalten Sie zwischen der Tages- und Nachtansicht des wahren Philly hin und her!"
+        },
+        "categoriesHelpText": {
+            "en": "Filter points of interest by category for a more focused view.",
+            "es": "Filtre los puntos de interés por categorías para conseguir una visión más focalizada.",
+            "fr": "Filtrez les lieux d'intérêt par catégorie pour obtenir une vue plus ciblée.",
+            "zh": "按类别筛选兴趣点，可进行更集中的观看。",
+            "ge": "Filtern Sie interessante Einzelheiten nach Kategorie für eine detailliertere Ansicht."
+        },
+        "miniViewHelpText": {
+            "en": "This mini-viewer shows what part of the Real Philly you’re looking at, and where all points of interest are.",
+            "es": "Este minivisor le muestra qué parte de la Verdadera Filadelfia está viendo y dónde se encuentran todos los puntos de interés.",
+            "fr": "Cette mini visionneuse affiche la partie du vrai Philadelphie que vous regardez, ainsi que l'emplacement de tous les lieux d'intérêt.",
+            "zh": "这个迷你查看器显示您在这个屏幕上看到的视图部分，以及所有所有兴趣点在真正费城中的位置。",
+            "ge": "Dieser Mini-Viewer zeigt Ihnen, welchen Teil des wahren Philly Sie gerade anschauen und wo alle Sehenswürdigkeiten sind."
+        },
+        "resetButtonHelpText": {
+            "en": "Reset your view to its original starting point.",
+            "es": "Restablezca la vista a su punto de inicio original.",
+            "fr": "Réinitialisez votre affichage à son point de départ initial.",
+            "zh": "将您的视图重置为其原始的起始点。",
+            "ge": "Setzen Sie Ihre Ansicht auf den ursprünglichen Ausgangspunkt zurück."
+        },
+        "languagesHelpText": {
+            "en": "Switch to a different language.",
+            "es": "Cambie a otro idioma.",
+            "fr": "Changez de langue.",
+            "zh": "切换到某个不同语言。",
+            "ge": "Wechseln Sie zu einer anderen Sprache."
+        },
+        "mainAreaHelpText": {
+            "en": "In this main area, you can use your fingers to explore",
+            "es": "¡Explore la Verdadera Filadelfia con las yemas de los dedos!",
+            "fr": "Explorez le vrai Philly du bout des doigts !",
+            "zh": "用手指探索真实费城！",
+            "ge": "Entdecken Sie das wahre Philly mit Ihren Fingern!"
+        },
+
+        "zoomInText": {
+            "en": "Spread two fingers apart to zoom in.",
+            "es": "Separe las yemas de dos dedos para ampliar la imagen.",
+            "fr": "Écartez deux doigts pour effectuer un zoom avant.",
+            "zh": "张开双指即可放大。",
+            "ge": "Ziehen Sie zwei Finger auseinander, um einzuzoomen."
+        },
+
+        "zoomOutText": {
+            "en": "Pinch two fingers together to zoom out.",
+            "es": "Acerque las yemas de dos dedos para reducir la imagen.",
+            "fr": "Resserrez deux doigts pour effectuer un zoom arrière.",
+            "zh": "捏合双指即可缩小。",
+            "ge": "Ziehen Sie zwei Finger zueinander, um auszuzoomen."
+        },
+
+        "panText": {
+            "en": "Drag one finger to move your view around.",
+            "es": "Deslice un dedo para mover la imagen hacia un lado o hacia el otro.",
+            "fr": "Faites glisser un doigt pour déplacer votre vue.",
+            "zh": "拖移一根手指即可移动您的视角。",
+            "ge": "Ziehen Sie Ihre Ansicht mit einem Finger umher."
+        },
+
+        "tapText": {
+            "en": "Tap on a point of interest to learn more about it.",
+            "es": "Pulse un punto de interés para desplegar más información sobre él.",
+            "fr": "Tapotez sur un lieu d'intérêt pour en savoir plus à son sujet.",
+            "zh": "点击兴趣点即可进行更多相关了解。",
+            "ge": "Tippen Sie auf einen Punkt von Interesse, um mehr zu erfahren."
+        },
+
+        "closeText": {
+            "en": "CLOSE",
+            "es": "CERRAR",
+            "fr": "FERMER",
+            "zh": "关闭",
+            "ge": "SCHLIESSEN"
+        },
+
+        "timeOutMainText": {
+            "en": "THERE'S SO MUCH MORE TO SEE!",
+            "es": "HAY MUCHO MÁS QUE VER",
+            "fr": "IL VOUS RESTE ENCORE TELLEMENT DE CHOSES À VOIR",
+            "zh": "目不暇接",
+            "ge": "ES GIBT NOCH VIEL MEHR ZU SEHEN"
+        },
+
+        "timeOutSubText": {
+            "en": "Just drag, pinch, or spread your fingers to keep exploring the Constellation Customer Experience Interactive",
+            "es": "¡ARRASTRE, PELLIZQUE O SEPARE LOS DEDOS PARA SEGUIR EXPLORANDO LA VERDADERA FILADELFIA!",
+            "fr": "IL VOUS SUFFIT DE FAIRE GLISSER, DE RESSERRER OU D'ÉCARTER VOS DOIGTS AFIN DE POURSUIVRE VOTRE EXPLORATION DU VRAI PHILLY",
+            "zh": "只需拖移、捏合、张开您的手指，就可以不断探索真实的费城",
+            "ge": "ZIEHEN, SPREIZEN ODER ZIEHEN SIE IHRE FINGER ZUEINANDER, UM DAS WAHRE PHILLY ZU ENTDECKEN"
+        },
+
+        "timeOutFooter": {
+            "en": "If you're done, we'll restart the experience in a few moments...",
+            "es": "Si ya terminó, la experiencia volverá a comenzar dentro de unos momentos...",
+            "fr": "Si vous avez terminé, nous reprendrons cette expérience dans quelques instants...",
+            "zh": "如果您已经完成，我们过一会儿将重新启动这一体验......",
+            "ge": "Wenn Sie fertig sind, starten wir das Ganze in wenigen Augenblicken erneut..."
+        },
+
+
+        "attract1Header": {
+            "en": "EXPLORE",
+            "es": "Explorar",
+            "fr": "Explorez",
+            "zh": "探索",
+            "ge": "Entdecken Sie"
+        },
+
+        "attract1MainText1": {
+            "en": "THE CONSTELLATION",
+            "es": "LA VERDADERA FILADELFIA",
+            "fr": "LE VRAI PHILLY",
+            "zh": "真实费城",
+            "ge": "DAS WAHRE PHILLY"
+        },
+
+        "attract1MainText2": {
+            "en": "CUSTOMER EXPERIENCE INTERACTIVE",
+            "es": "LA VERDADERA FILADELFIA",
+            "fr": "LE VRAI PHILLY",
+            "zh": "真实费城",
+            "ge": "DAS WAHRE PHILLY"
+        },
+
+        "attract1Footer": {
+            "en": "Tap Anywhere To Begin",
+            "es": "UTILICE LOS DEDOS PARA HACER UN MOVIMIENTO PANORÁMICO, ACERCAR LA IMAGEN, O PULSE PARA DESCUBRIR TODO LO QUE FILADELFIA LE OFRECE.",
+            "fr": "EFFECTUEZ UN PANORAMIQUE, UN ZOOM ET TAPOTEZ À L'AIDE DE VOS DOIGTS POUR DÉCOUVRIR CE QUE PHILLY A À VOUS OFFRIR",
+            "zh": "用您的手指平移、缩放和点击，发现费城的独到之处",
+            "ge": "VERWENDEN SIE IHRE FINGER, UM DIE ANSICHT ZU DREHEN, EIN- ODER AUSZUZOOMEN UND DURCH ANTIPPEN ZU ENTDECKEN, WAS PHILLY ALLES ZU BIETEN HAT"
+        },
+
+        "attract2MainText": {
+            "en": "TAP ANYWHERE TO BEGIN",
+            "es": "PULSE EN CUALQUIER PARTE PARA COMENZAR",
+            "fr": "TAPOTEZ N'IMPORTE OÙ POUR DÉMARRER",
+            "zh": "点击任何位置即可开始",
+            "ge": "TIPPEN SIE AN EINER BELIEBIGEN STELLE, UM ZU BEGINNEN"
+        },
+
+        "attract2Footer": {
+            "en": "USE YOUR FINGERS TO PAN, ZOOM, AND TAP TO DISCOVER WHAT PHILLY HAS TO OFFER",
+            "es": "UTILICE LOS DEDOS PARA HACER UN MOVIMIENTO PANORÁMICO, ACERCAR LA IMAGEN, O PULSE PARA DESCUBRIR TODO LO QUE FILADELFIA LE OFRECE.",
+            "fr": "EFFECTUEZ UN PANORAMIQUE, UN ZOOM ET TAPOTEZ À L'AIDE DE VOS DOIGTS POUR DÉCOUVRIR CE QUE PHILLY A À VOUS OFFRIR",
+            "zh": "用您的手指平移、缩放和点击，发现费城的独到之处",
+            "ge": "VERWENDEN SIE IHRE FINGER, UM DIE ANSICHT ZU DREHEN, EIN- ODER AUSZUZOOMEN UND DURCH ANTIPPEN ZU ENTDECKEN, WAS PHILLY ALLES ZU BIETEN HAT"
+        },
+        "outTheWindow": {
+            "en": "OUT THE WINDOW",
+            "es": "FUERA DE LA VENTANA",
+            "fr": "À L'EXTÉRIEUR DE LA FENÊTRE",
+            "zh": "窗外",
+            "ge": "AUS DEM FENSTER"
+        },
+        "north": {
+            "en": "N",
+            "es": "N",
+            "fr": "N",
+            "zh": "北",
+            "ge": "N"
+        },
+        "east": {
+            "en": "E",
+            "es": "E",
+            "fr": "E",
+            "zh": "东",
+            "ge": "O"
+        },
+        "south": {
+            "en": "S",
+            "es": "S",
+            "fr": "S",
+            "zh": "南",
+            "ge": "S"
+        },
+        "west": {
+            "en": "W",
+            "es": "O",
+            "fr": "O",
+            "zh": "西",
+            "ge": "W"
+        },
+        "modesSubText": {
+            "en": "Your Current View",
+            "es": "Su vista actual",
+            "fr": "Votre affichage en cours",
+            "zh": "您的当前视图",
+            "ge": "Ihre aktuelle Anzeige"
+        }
+    }
+}

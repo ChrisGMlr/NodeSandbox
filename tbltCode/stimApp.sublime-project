@@ -1,0 +1,24 @@
+{
+	"folders":
+	[
+		{
+			"file_exclude_patterns":
+			[
+				"*.sublime-workspace",
+				"*.log",
+				"restart.json",
+				"README.png"
+			],
+			"folder_exclude_patterns":
+			[
+				"client",
+				"*.tmp",
+				"node_modules",
+				"logs",
+				"ampm"
+			],
+			"follow_symlinks": true,
+			"path": "."
+		}
+	]
+}

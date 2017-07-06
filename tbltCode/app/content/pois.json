@@ -1,0 +1,1780 @@
+{
+  "attractLocations": [
+    {
+      "heading": 0,
+      "pitch": 0,
+      "fov": 0.6667
+    },
+    {
+      "heading": 0,
+      "pitch": 0,
+      "fov": 0.6667
+    },
+    {
+      "heading": 0,
+      "pitch": 0,
+      "fov": 0.6667
+    }
+  ],
+  "categories": [
+    {
+      "name": "All Categories",
+      "id": "all"
+    },
+    {
+      "name": "Technologies",
+      "id": "tch"
+    },
+    {
+      "name": "Solar",
+      "id": "sol"
+    },
+    {
+      "name": "Energy Efficiency",
+      "id": "enrgeffcy"
+    },
+    {
+      "name": "Power   Electricity",
+      "id": "pwrelec"
+    },
+    {
+      "name": "Natural Gas",
+      "id": "natgas"
+    },
+    {
+      "name": "Home Services",
+      "id": "hmser"
+    },
+    {
+      "name": "Load Response",
+      "id": "ldres"
+    }
+  ],
+  "modes": [
+    {
+      "name": "Day",
+      "id": "day"
+    },
+    {
+      "name": "Night",
+      "id": "night"
+    }
+  ],
+  "pointsOfInterest": [
+    {
+      "id": "101",
+      "title": {
+        "en": "Hospitality",
+        "es": "",
+        "fr": "",
+        "zh": "",
+        "ge": ""
+      },
+      "caseStudies": [
+        {
+          "caseStudyName": {
+            "en": "Solar: Ravens Practice Center",
+            "es": "",
+            "fr": "",
+            "zh": "",
+            "ge": ""
+          },
+          "descriptionTitle": {
+            "en": "Helping the Hometown Team with Renewable Energy ",
+            "es": "",
+            "fr": "",
+            "zh": "",
+            "ge": ""
+          },
+          "descriptionBody": {
+            "en": "<p>Constellation teamed up with their hometown Baltimore Ravens to construct a 375-kilowatt (DC) solar generation project at the Raven’s 200,000 square foot headquarters and training facility in Owings Mill, Md. Constellation has been a longtime sponsor of the Ravens and has supplied power to the Under Armour Performance Center since 2013. The agreement expanded their relationship from energy supply to renewable energy.</p><br><p>This solar power system is expected to generate approximately 460,000 kilowatt-hours of electricity per year, about 15 percent of the team headquarters’ electricity needs.</p>",
+            "es": "",
+            "fr": "",
+            "zh": "",
+            "ge": ""
+          },
+          "media": [
+            {
+              "title": {
+                "en": "Baltimore Ravens",
+                "es": "",
+                "fr": "",
+                "zh": "",
+                "ge": ""
+              },
+              "image": "/content/dam/constellation/customer-stories/Poster Frames/Ravens.00_00_13_14.Still001.jpg",
+              "video": "/content/dam/constellation/customer-stories/Videos/Ravens_1080.mp4"
+            },
+            {
+              "title": {
+                "en": "Baltimore Ravens",
+                "es": "",
+                "fr": "",
+                "zh": "",
+                "ge": ""
+              },
+              "image": "/content/dam/constellation/customer-stories/Images/Solar_Ravens_Practice_Facility_1.jpg",
+              "video": ""
+            },
+            {
+              "title": {
+                "en": "Baltimore Ravens",
+                "es": "",
+                "fr": "",
+                "zh": "",
+                "ge": ""
+              },
+              "image": "/content/dam/constellation/customer-stories/Images/Solar_Ravens_Practice_Facility_2.jpg",
+              "video": ""
+            }
+          ]
+        },
+        {
+          "caseStudyName": {
+            "en": "Solar: National Aquarium ",
+            "es": "",
+            "fr": "",
+            "zh": "",
+            "ge": ""
+          },
+          "descriptionTitle": {
+            "en": "Achieving Sustainability Goals Through Innovative Partnership ",
+            "es": "",
+            "fr": "",
+            "zh": "",
+            "ge": ""
+          },
+          "descriptionBody": {
+            "en": "<p>Constellation and the National Aquarium formed an innovative 25-year power supply agreement that enables Constellation to help the Aquarium achieve their sustainability goals by better managing energy costs and encouraging the development of renewable power in Maryland. As part of the agreement, Constellation funded and constructed a 4.3 megawatt (DC) grid-connected solar generation project in Cambridge, MD, designed to meet 40 percent of the Aquarium’s annual electricity needs.</p>",
+            "es": "",
+            "fr": "",
+            "zh": "",
+            "ge": ""
+          },
+          "media": [
+            {
+              "title": {
+                "en": "National Aquarium",
+                "es": "",
+                "fr": "",
+                "zh": "",
+                "ge": ""
+              },
+              "image": "/content/dam/constellation/customer-stories/Poster Frames/National Aquarium.00_00_07_06.Still001.jpg",
+              "video": "/content/dam/constellation/customer-stories/Videos/National Aquarium_1080.mp4"
+            },
+            {
+              "title": {
+                "en": "National Aquarium",
+                "es": "",
+                "fr": "",
+                "zh": "",
+                "ge": ""
+              },
+              "image": "/content/dam/constellation/customer-stories/Images/Solar_National_Aquarium_1.jpg",
+              "video": ""
+            }
+          ]
+        },
+        {
+          "caseStudyName": {
+            "en": "Energy Efficiency: Baltimore Convention Center",
+            "es": "",
+            "fr": "",
+            "zh": "",
+            "ge": ""
+          },
+          "descriptionTitle": {
+            "en": "Reducing Energy, Water Usage and Cutting Costs ",
+            "es": "",
+            "fr": "",
+            "zh": "",
+            "ge": ""
+          },
+          "descriptionBody": {
+            "en": "<p>Constellation teamed with Baltimore Convention Center to reduce energy and water usage and cut costs through an Energy Performance Contract (EPC). Under the EPC, water conservation and energy efficiency improvements provided by Constellation required no upfront capital from the Convention Center and are expected to provide approximately $18 million in cost savings over a 15-year period.</p>",
+            "es": "",
+            "fr": "",
+            "zh": "",
+            "ge": ""
+          },
+          "media": [
+            {
+              "title": {
+                "en": "Baltimore Convention Center",
+                "es": "",
+                "fr": "",
+                "zh": "",
+                "ge": ""
+              },
+              "image": "/content/dam/constellation/customer-stories/Images/BCjog.jpg",
+              "video": "/content/dam/constellation/customer-stories/Videos/Baltimore Convention Center_1080.mp4"
+            },
+            {
+              "title": {
+                "en": "Baltimore Convention Center",
+                "es": "",
+                "fr": "",
+                "zh": "",
+                "ge": ""
+              },
+              "image": "/content/dam/constellation/customer-stories/Images/Baltimore Convention Center.00_00_16_29.Still001.jpg",
+              "video": ""
+            }
+          ]
+        },
+        {
+          "caseStudyName": {
+            "en": "Load Response: Heinz Field",
+            "es": "",
+            "fr": "",
+            "zh": "",
+            "ge": ""
+          },
+          "descriptionTitle": {
+            "en": "Designing, Developing, Operating and Maintaining the 65,000 Seat Heinz Field",
+            "es": "",
+            "fr": "",
+            "zh": "",
+            "ge": ""
+          },
+          "descriptionBody": {
+            "en": "<p>The fifth-oldest franchise in the national Football League, the Pittsburgh Steelers have a storied history that includes an NFL record six Super Bowls wins. With all their success, and a new generation of fans to answer to, the Steelers needed a stadium that reflected their impressive legacy. </p><br><p>Faced with escalated construction costs of a new stadium and the challenge of navigating the complexities of newly competitive energy markets, the Steelers knew they needed a professional energy ally. They enlisted Constellation to design, develop, operate and maintain the central energy plant serving the 65,000-seat Heinz Field. In addition, Constellation built the entire stadium infrastructure for heating, cooling and hot water supply. </p><br><p>Constellation funded this project as a build-own- operate-maintain (BOOM) project for a 20-year term. The Steelers saved over $1.25 million in energy costs over the first five years of the project.</p>",
+            "es": "",
+            "fr": "",
+            "zh": "",
+            "ge": ""
+          },
+          "media": [
+            {
+              "title": {
+                "en": "Heinz Field ",
+                "es": "",
+                "fr": "",
+                "zh": "",
+                "ge": ""
+              },
+              "image": "/content/dam/constellation/customer-stories/Images/Load_Response_Heinz_Field.jpg",
+              "video": ""
+            }
+          ]
+        },
+        {
+          "caseStudyName": {
+            "en": "Maryland Science Center",
+            "es": "",
+            "fr": "",
+            "zh": "",
+            "ge": ""
+          },
+          "descriptionTitle": {
+            "en": " Joining Forces to Educate Visitors About the Science of Electricity ",
+            "es": "",
+            "fr": "",
+            "zh": "",
+            "ge": ""
+          },
+          "descriptionBody": {
+            "en": "<p>The Maryland Science Center and Constellation joined forces in 2014 to open Power Up! an interactive $1.8 million exhibit, sponsored by Constellation and parent company Exelon, that gives visitors an interactive look at the science of electricity. The 4,000-square foot, multi-lingual (English, Spanish and Braille) exhibit features more than 12 interactive stations that allow visitors to participate in the process of generating, measuring, monitoring and distributing electricity. Power Up! is the first major permanent exhibit to open at the Maryland Science Center since 2010.</p>",
+            "es": "",
+            "fr": "",
+            "zh": "",
+            "ge": ""
+          },
+          "media": [
+            {
+              "title": {
+                "en": "Maryland Science Center ",
+                "es": "",
+                "fr": "",
+                "zh": "",
+                "ge": ""
+              },
+              "image": "/content/dam/constellation/customer-stories/Poster Frames/MD Science Center.00_00_19_07.Still001.jpg",
+              "video": "/content/dam/constellation/customer-stories/Videos/MD Science Center_1080.mp4"
+            },
+            {
+              "title": {
+                "en": "Maryland Science Center",
+                "es": "",
+                "fr": "",
+                "zh": "",
+                "ge": ""
+              },
+              "image": "/content/dam/constellation/customer-stories/Images/Maryland_Science_Center_1.jpg",
+              "video": ""
+            }
+          ]
+        }
+      ],
+      "categories": [
+        "sol",
+        "enrgeffcy",
+        "ldres"
+      ],
+      "modes": [
+        "day",
+        "night"
+      ],
+      "isSurpriseSpot": false,
+      "day": {
+        "heading": -0.044660920799174164,
+        "pitch": -0.03550367941037577,
+        "descriptionZoom": 0.06684074603564243,
+        "revealZoom": 0.6666760685343467
+      },
+      "night": {
+        "heading": 0.29891233151261076,
+        "pitch": 0.09242219142138453,
+        "descriptionZoom": 0.06684074603564243,
+        "revealZoom": 0.6666760685343467
+      }
+    },
+    {
+      "id": "102",
+      "title": {
+        "en": "Industrial",
+        "es": "",
+        "fr": "",
+        "zh": "",
+        "ge": ""
+      },
+      "caseStudies": [
+        {
+          "caseStudyName": {
+            "en": "Solar: McCormick Spice ",
+            "es": "",
+            "fr": "",
+            "zh": "",
+            "ge": ""
+          },
+          "descriptionTitle": {
+            "en": "Reducing Greenhouse Gas Emissions and Electricity Usage",
+            "es": "",
+            "fr": "",
+            "zh": "",
+            "ge": ""
+          },
+          "descriptionBody": {
+            "en": "<p>McCormick &amp; Company’s business depends on healthy soil, and that informs their commitment to protecting Earth’s resources, so they enlisted Constellation to help them reduce their greenhouse gas emissions and electricity usage. Through energy conservation measures and the installation of a 1.8-megawatt rooftop solar power system in 2011, their 363,000-square-foot distribution center in Belcamp, Md, achieved net-zero energy use, which means it produces as much or more electricity than it consumes from the grid With the addition of hosting solar power, the facility generated a surplus of more than 16,000 kilowatt-hours of electricity in a one-year period.</p>",
+            "es": "",
+            "fr": "",
+            "zh": "",
+            "ge": ""
+          },
+          "media": [
+            {
+              "title": {
+                "en": "McCormick Spice",
+                "es": "",
+                "fr": "",
+                "zh": "",
+                "ge": ""
+              },
+              "image": "/content/dam/constellation/customer-stories/Poster Frames/McCormick.00_00_21_00.Still001.jpg",
+              "video": "/content/dam/constellation/customer-stories/Videos/McCormick_1080.mp4"
+            },
+            {
+              "title": {
+                "en": "McCormick Spice",
+                "es": "",
+                "fr": "",
+                "zh": "",
+                "ge": ""
+              },
+              "image": "/content/dam/constellation/customer-stories/Images/Solar_McCormick_Spice.jpg",
+              "video": ""
+            }
+          ]
+        },
+        {
+          "caseStudyName": {
+            "en": "Energy Efficiency: BL Downey ",
+            "es": "",
+            "fr": "",
+            "zh": "",
+            "ge": ""
+          },
+          "descriptionTitle": {
+            "en": "Implementing an Efficiency Made Easy Project to Reduce Natural Gas Usage ",
+            "es": "",
+            "fr": "",
+            "zh": "",
+            "ge": ""
+          },
+          "descriptionBody": {
+            "en": "<p>B.L. Downey Company has been a leader in the powder coating and E-coating industry since 1956. This offers a more robust, cost-effective and environmentally friendly alternative to liquid paint for components used in numerous industries.</p><br><p>Working with Constellation, B.L. Downey Company implemented an Efficiency Made Easy (or EME) project, allowing it to implement approximately $1 million in upgrades—with no upfront capital investment. This resulted in the reduction in natural gas usage by 360,600 therms, a reduction in carbon footprint by 4 million pounds per year, and a reduction in electric usage by 10%.</p>",
+            "es": "",
+            "fr": "",
+            "zh": "",
+            "ge": ""
+          },
+          "media": [
+            {
+              "title": {
+                "en": "BL Downey",
+                "es": "",
+                "fr": "",
+                "zh": "",
+                "ge": ""
+              },
+              "image": "/content/dam/constellation/customer-stories/Poster Frames/BL Downey.00_00_28_25.Still001.jpg",
+              "video": "/content/dam/constellation/customer-stories/Videos/BL Downey_1080.mp4"
+            },
+            {
+              "title": {
+                "en": "BL Downey",
+                "es": "",
+                "fr": "",
+                "zh": "",
+                "ge": ""
+              },
+              "image": "/content/dam/constellation/customer-stories/Images/Energy_Efficiency_BL_Downey_1.jpg",
+              "video": ""
+            }
+          ]
+        },
+        {
+          "caseStudyName": {
+            "en": "Solar: Owens Corning ",
+            "es": "",
+            "fr": "",
+            "zh": "",
+            "ge": ""
+          },
+          "descriptionTitle": {
+            "en": "Establishing a Solar Generation Project to Cut Energy Consumption and Greenhouse Gas Emissions",
+            "es": "",
+            "fr": "",
+            "zh": "",
+            "ge": ""
+          },
+          "descriptionBody": {
+            "en": "<p>Owens Corning (OC), a leading manufacturer of residential and commercial efficiency products – such as insulation – has, for over a decade, focused on providing products and services that are manufactured and delivered sustainably. One of Owens Corning’s core values is to reduce its environmental footprint. As part of this sustainability drive, the company set aggressive goals to cut energy consumption and greenhouse gas emissions.</p><br><p>To help meet these energy goals, Owens Corning collaborated with Constellation to develop a solar generation project. Constellation constructed and owns the 2.4 MW solar array on parking canopies.</p><br><p>Comprised of approximately 8,000 Yingli 305-watt solar photovoltaic modules installed on 935 parking spots, with 16 canopies, the system is expected to generate 3 million kilowatt-hours of energy in the first year – or approximately 30% of the electricity needed annually at the OC headquarters. The solar arrays are expected to have the effect of reducing greenhouse gas emissions by 2,069 metric tons of carbon dioxide yearly, equivalent to the emissions of 436 passenger vehicles annually. Owens Corning will purchase the power generated from the solar arrays under a 20 year power purchase agreement. They will also retain the Class I SRECs, enabling them to count the solar generation credits towards their sustainability goals.</p><br><p>&nbsp;</p><br><p>&nbsp;</p>",
+            "es": "",
+            "fr": "",
+            "zh": "",
+            "ge": ""
+          },
+          "media": [
+            {
+              "title": {
+                "en": "Owens Corning",
+                "es": "",
+                "fr": "",
+                "zh": "",
+                "ge": ""
+              },
+              "image": "/content/dam/constellation/customer-stories/Images/Solar_Owens_Corning_1.jpg",
+              "video": ""
+            }
+          ]
+        },
+        {
+          "caseStudyName": {
+            "en": "Load Response: Proctor &amp; Gamble Biomass",
+            "es": "",
+            "fr": "",
+            "zh": "",
+            "ge": ""
+          },
+          "descriptionTitle": {
+            "en": "Reducing Waste Via New Biomass Plan ",
+            "es": "",
+            "fr": "",
+            "zh": "",
+            "ge": ""
+          },
+          "descriptionBody": {
+            "en": "<p>P&amp;G, one of the world’s largest consumer products companies, touches nearly 5 billion consumers globally. To help enable their consumers to make more sustainable choices, P&amp;G set a goal to obtain 30% of their total (electrical and thermal) energy from renewable sources by 2020. P&amp;G recognized that their paper manufacturing facility in Albany, GA, where they produce Bounty paper towels and Charmin toilet paper, provided an opportunity to make a step change in their renewable energy usage. </p><br><p>The Albany facility had been successfully operating an existing biomass boiler for more than 30 years, taking advantage of the abundant locally available renewable biomass fuel sources. P&amp;G’s interest in expanding and growing its use of biomass coincided with Georgia Power’s response to new state mandates for utilities to purchase power from renewable sources such as wind, solar, and biomass.</p><br><p> Constellation provided the capital to construct the $200 million 50-megawatt CHP plant that is co-located at one of P&amp;G’s largest U.S. facilities, and will lead plant ownership, operation and management. The facility is one of Constellation’s newest projects in its growing distributed energy business, which has more than 300 megawatts of assets in operation or under development. P&amp;G will purchase the steam produced by the plant, which is targeted to provide 100 percent of the steam needs at the Albany facility, representing roughly 60 to 70 percent of the site’s total energy needs. The plant’s fuel supply will come from the locally available and sustainable biomass that would otherwise have been left to decay, be burned, or sent to landfill. </p><br><p>The Albany biomass plant – scheduled to begin commercial operation in June 2017 – will help P&amp;G move closer to its 2020 goal of obtaining 30 percent of its total energy from renewable sources, allowing the company to decrease the plant’s environmental footprint while maintaining unimpeded production of two of its leading brands, Bounty and Charmin.</p>",
+            "es": "",
+            "fr": "",
+            "zh": "",
+            "ge": ""
+          },
+          "media": [
+            {
+              "title": {
+                "en": "Proctor & Gamble Biomass ",
+                "es": "",
+                "fr": "",
+                "zh": "",
+                "ge": ""
+              },
+              "image": "/content/dam/constellation/customer-stories/Images/Load_Response_Proctor_Gamble_Biomass.jpg",
+              "video": ""
+            }
+          ]
+        }
+      ],
+      "categories": [
+        "sol",
+        "enrgeffcy",
+        "ldres"
+      ],
+      "modes": [
+        "day",
+        "night"
+      ],
+      "isSurpriseSpot": false,
+      "day": {
+        "heading": 0.06694885866903633,
+        "pitch": 0.12980306438081862,
+        "descriptionZoom": 0.08616559501993949,
+        "revealZoom": 0.6666760685343467
+      },
+      "night": {
+        "heading": -0.3881005865654288,
+        "pitch": 0.18645192436798952,
+        "descriptionZoom": 0.08616559501993949,
+        "revealZoom": 0.6666760685343467
+      }
+    },
+    {
+      "id": "103",
+      "title": {
+        "en": "Residential",
+        "es": "",
+        "fr": "",
+        "zh": "",
+        "ge": ""
+      },
+      "caseStudies": [
+        {
+          "caseStudyName": {
+            "en": "Home Services: BGE Home / Constellation Home",
+            "es": "",
+            "fr": "",
+            "zh": "",
+            "ge": ""
+          },
+          "descriptionTitle": {
+            "en": "Helping Residents Make Their Homes More Comfortable ",
+            "es": "",
+            "fr": "",
+            "zh": "",
+            "ge": ""
+          },
+          "descriptionBody": {
+            "en": "<p>Constellation Home provides a one-stop shop for homeowners in the Dallas and Houston areas for heating, cooling and plumbing and water heater solutions to fit their home and budget. In addition to air conditioning, heating and water heater sales, Constellation Home offers a “peace of mind” no-deductible Home Protection Plan. The plan provides customers coverage on home system repairs such as heating and air conditioning, water heaters, and in-home electrical, as well as unlimited service calls from local, certified technicians.</p>",
+            "es": "",
+            "fr": "",
+            "zh": "",
+            "ge": ""
+          },
+          "media": [
+            {
+              "title": {
+                "en": "BGE Home/Constellation Home",
+                "es": "",
+                "fr": "",
+                "zh": "",
+                "ge": ""
+              },
+              "image": "/content/dam/constellation/customer-stories/Poster Frames/BGE Home _ Constellation Home.00_00_27_11.Still001.jpg",
+              "video": "/content/dam/constellation/customer-stories/Videos/BGE Home _ Constellation Home_1080.mp4"
+            }
+          ]
+        },
+        {
+          "caseStudyName": {
+            "en": "Home Services: Residential Supply ",
+            "es": "",
+            "fr": "",
+            "zh": "",
+            "ge": ""
+          },
+          "descriptionTitle": {
+            "en": "Providing Customers with Peace of Mind and Budget Certainty ",
+            "es": "",
+            "fr": "",
+            "zh": "",
+            "ge": ""
+          },
+          "descriptionBody": {
+            "en": "<p>Constellation helps consumers and small businesses better manage their energy costs. We provide peace of mind and budget certainty through long term power and natural gas pricing plans. We offer competitive prices on power and gas commodities, home services and home energy</p>",
+            "es": "",
+            "fr": "",
+            "zh": "",
+            "ge": ""
+          },
+          "media": [
+            {
+              "title": {
+                "en": "Residential Supply",
+                "es": "",
+                "fr": "",
+                "zh": "",
+                "ge": ""
+              },
+              "image": "/content/dam/constellation/customer-stories/Poster Frames/Residental Supply _ Sunrun.00_00_30_13.Still003.jpg",
+              "video": "/content/dam/constellation/customer-stories/Videos/Residental Supply _ Sunrun_1080.mp4"
+            },
+            {
+              "title": {
+                "en": "Residential Supply",
+                "es": "",
+                "fr": "",
+                "zh": "",
+                "ge": ""
+              },
+              "image": "/content/dam/constellation/customer-stories/Images/Home_Services_Residental_Supply.jpg",
+              "video": ""
+            }
+          ]
+        },
+        {
+          "caseStudyName": {
+            "en": "Solar: Sunrun",
+            "es": "",
+            "fr": "",
+            "zh": "",
+            "ge": ""
+          },
+          "descriptionTitle": {
+            "en": "Giving Customers Low Cost Clean Energy Solutions",
+            "es": "",
+            "fr": "",
+            "zh": "",
+            "ge": ""
+          },
+          "descriptionBody": {
+            "en": "<p>Constellation and Sunrun are working together to provide customers with a clean energy rooftop solar solution. Solar panels allow customers to lock in electricity rates for up to 20 years, helping them predict and better manage their household energy expenses.</p><br><p>Constellation’s partnership with Sunrun enables homeowners to install solar without the high upfront cost and complexity of ownership. Sunrun pays for the solar installation and then monitors, maintains and guarantees the performance of the system for 20 years.</p>",
+            "es": "",
+            "fr": "",
+            "zh": "",
+            "ge": ""
+          },
+          "media": [
+            {
+              "title": {
+                "en": "Sunrun",
+                "es": "",
+                "fr": "",
+                "zh": "",
+                "ge": ""
+              },
+              "image": "/content/dam/constellation/customer-stories/Images/SRjog.jpg",
+              "video": "/content/dam/constellation/customer-stories/Videos/Residental Supply _ Sunrun_1080.mp4"
+            },
+            {
+              "title": {
+                "en": "Sunrun",
+                "es": "",
+                "fr": "",
+                "zh": "",
+                "ge": ""
+              },
+              "image": "/content/dam/constellation/customer-stories/Images/Solar_Sunrun.jpg",
+              "video": ""
+            }
+          ]
+        }
+      ],
+      "categories": [
+        "hmser",
+        "sol"
+      ],
+      "modes": [
+        "day",
+        "night"
+      ],
+      "isSurpriseSpot": false,
+      "day": {
+        "heading": -0.3199650228477253,
+        "pitch": -0.23922946512229756,
+        "descriptionZoom": 0.08188587768850099,
+        "revealZoom": 0.6666760685343467
+      },
+      "night": {
+        "heading": -0.3199650228477253,
+        "pitch": -0.23922946512229756,
+        "descriptionZoom": 0.08188587768850099,
+        "revealZoom": 0.6666760685343467
+      }
+    },
+    {
+      "id": "104",
+      "title": {
+        "en": "Community<br>Stewardship",
+        "es": "",
+        "fr": "",
+        "zh": "",
+        "ge": ""
+      },
+      "caseStudies": [
+        {
+          "caseStudyName": {
+            "en": "Technologies: E2 Energy to Educate",
+            "es": "",
+            "fr": "",
+            "zh": "",
+            "ge": ""
+          },
+          "descriptionTitle": {
+            "en": "Awarding Grants to Solve Energy Challenges ",
+            "es": "",
+            "fr": "",
+            "zh": "",
+            "ge": ""
+          },
+          "descriptionBody": {
+            "en": "<p>Through the E2 Energy to Educate grant program, Constellation offers grants to schools working to solve today’s and tomorrow’s energy challenges. The program awards grants of up to $25,000 to programs for grades 6-12 and $50,000 to colleges and universities, and has provided more than $2.2 million in funding and reached more than 100,000 students since its inception in 2010.</p><br><p>Award winning projects have included student led net zero building design, solar car racing, fuel cells and photovoltaic research, and a variety of other hands on student projects.</p>",
+            "es": "",
+            "fr": "",
+            "zh": "",
+            "ge": ""
+          },
+          "media": [
+            {
+              "title": {
+                "en": "E2 Energy to Educate",
+                "es": "",
+                "fr": "",
+                "zh": "",
+                "ge": ""
+              },
+              "image": "/content/dam/constellation/customer-stories/Poster Frames/E2 Energy to Educate.00_00_14_07.Still001.jpg",
+              "video": "/content/dam/constellation/customer-stories/Videos/E2 Energy to Educate_1080.mp4"
+            }
+          ]
+        },
+        {
+          "caseStudyName": {
+            "en": "Community Champions ",
+            "es": "",
+            "fr": "",
+            "zh": "",
+            "ge": ""
+          },
+          "descriptionTitle": {
+            "en": "Funding Worthy Causes Nominated by Customers",
+            "es": "",
+            "fr": "",
+            "zh": "",
+            "ge": ""
+          },
+          "descriptionBody": {
+            "en": "<p>Constellation believes in giving back to the community, and knows a few dollars can go a long way. Through Constellation’s Community Champions program, customers can apply for small grants (up to $500) for causes that are important to their community. Since the program’s launch in 2013, Constellation’s Community Champions program has awarded over $200,000 in funding to more than 400 worthy projects nominated by our customers.</p>",
+            "es": "",
+            "fr": "",
+            "zh": "",
+            "ge": ""
+          },
+          "media": [
+            {
+              "title": {
+                "en": "Community Champions ",
+                "es": "",
+                "fr": "",
+                "zh": "",
+                "ge": ""
+              },
+              "image": "/content/dam/constellation/customer-stories/Poster Frames/Community Champions.00_00_06_16.Still001.jpg",
+              "video": "/content/dam/constellation/customer-stories/Videos/Community Champions_1080.mp4"
+            }
+          ]
+        },
+        {
+          "caseStudyName": {
+            "en": "Together We Serve",
+            "es": "",
+            "fr": "",
+            "zh": "",
+            "ge": ""
+          },
+          "descriptionTitle": {
+            "en": "Serving Local Communities ",
+            "es": "",
+            "fr": "",
+            "zh": "",
+            "ge": ""
+          },
+          "descriptionBody": {
+            "en": "<p>In remembrance of the anniversary of September 11, 2001, nearly 200 volunteers from seven of the Baltimore area’s largest employers and corporate philanthropists teamed up for the third annual ‘Together We Serve’ Day of Service in the Johnson Square neighborhood of Baltimore City. The effort is a part of an ongoing neighborhood revitalization initiative led by the 6th branch, a veteran-led, non-profit organization that uses the leadership and organizational skills of military veterans to execute aggressive community service initiatives at the local level.</p>",
+            "es": "",
+            "fr": "",
+            "zh": "",
+            "ge": ""
+          },
+          "media": [
+            {
+              "title": {
+                "en": "Together We Serve ",
+                "es": "",
+                "fr": "",
+                "zh": "",
+                "ge": ""
+              },
+              "image": "/content/dam/constellation/customer-stories/Poster Frames/Together We Serve.00_00_12_11.Still001.jpg",
+              "video": "/content/dam/constellation/customer-stories/Videos/Together We Serve_1080.mp4"
+            }
+          ]
+        },
+        {
+          "caseStudyName": {
+            "en": "Inner Harbor Water Quality ",
+            "es": "",
+            "fr": "",
+            "zh": "",
+            "ge": ""
+          },
+          "descriptionTitle": {
+            "en": "Tending Oyster Gardens in the Inner Harbor",
+            "es": "",
+            "fr": "",
+            "zh": "",
+            "ge": ""
+          },
+          "descriptionBody": {
+            "en": "<p>In support of the Waterfront Partnership of Baltimore’s Healthy Harbor Initiative and the Chesapeake Bay Foundation’s Healthy Harbor Oyster Partnership, employee volunteers from Constellation and sister company BGE tend five oyster gardens in the Inner Harbor. In 2015, they grew 165,000 baby oysters in the Harbor as part of an initiative to create a swimmable, fishable Harbor. While oysters in the wild often see only a one percent survival rate, the spat grown by the Oyster Partnership maintained a 70 percent survival rate and increased 40 percent in size.</p>",
+            "es": "",
+            "fr": "",
+            "zh": "",
+            "ge": ""
+          },
+          "media": [
+            {
+              "title": {
+                "en": "Inner Harbor Water Quality ",
+                "es": "",
+                "fr": "",
+                "zh": "",
+                "ge": ""
+              },
+              "image": "/content/dam/constellation/customer-stories/Poster Frames/Inner Harbor Water Quality.00_00_10_00.Still001.jpg",
+              "video": "/content/dam/constellation/customer-stories/Videos/Inner Harbor Water Quality_1080.mp4"
+            }
+          ]
+        },
+        {
+          "caseStudyName": {
+            "en": "Solar: Archdiocese of Baltimore ",
+            "es": "",
+            "fr": "",
+            "zh": "",
+            "ge": ""
+          },
+          "descriptionTitle": {
+            "en": "Meeting the Electricity Needs of the Archdiocese's",
+            "es": "",
+            "fr": "",
+            "zh": "",
+            "ge": ""
+          },
+          "descriptionBody": {
+            "en": "<p>Constellation and the Archdiocese of Baltimore completed a 5.4-megawatt solar generation project in December 2015. The solar power system, located at Perryman Station in Harford County, MD., is expected to generate enough electricity to meet approximately 20 percent of the Archdiocese’s electricity needs. </p><br><p>This project required no upfront capital from Archdiocese. Constellation will own and operate the solar power system. The archdiocese will purchase the electricity generated by the solar panels from Constellation under a 20-year power purchase agreement. </p><br><p>The solar power system, composed of approximately 17,700 photovoltaic panels, is expected to generate approximately 7.2 million kilowatt-hours of electricity in the first year. Generating the same amount of electricity using nonrenewable sources would result in the release of approximately 5,000 tons of carbon dioxide, or the equivalent emissions from 1,045 passenger vehicles annually, according to U.S. EPA data for the region.</p>",
+            "es": "",
+            "fr": "",
+            "zh": "",
+            "ge": ""
+          },
+          "media": [
+            {
+              "title": {
+                "en": "Catholic Church",
+                "es": "",
+                "fr": "",
+                "zh": "",
+                "ge": ""
+              },
+              "image": "/content/dam/constellation/customer-stories/Images/Solar_Archdiocese_of_Baltimore.jpg",
+              "video": ""
+            }
+          ]
+        }
+      ],
+      "categories": [
+        "tch",
+        "sol"
+      ],
+      "modes": [
+        "day",
+        "night"
+      ],
+      "isSurpriseSpot": false,
+      "day": {
+        "heading": 0.3325051551855154,
+        "pitch": -0.25792394434869564,
+        "descriptionZoom": 0.07943085408418718,
+        "revealZoom": 0.6666760685343467
+      },
+      "night": {
+        "heading": 0.3325051551855154,
+        "pitch": -0.25792394434869564,
+        "descriptionZoom": 0.07943085408418718,
+        "revealZoom": 0.6666760685343467
+      }
+    },
+    {
+      "id": "105",
+      "title": {
+        "en": "Generation",
+        "es": "",
+        "fr": "",
+        "zh": "",
+        "ge": ""
+      },
+      "caseStudies": [
+        {
+          "caseStudyName": {
+            "en": "Natural Gas: Hyperion Waste Water Treatment ",
+            "es": "",
+            "fr": "",
+            "zh": "",
+            "ge": ""
+          },
+          "descriptionTitle": {
+            "en": "Using the Most Advanced Technology to Minimize Ecological Impact",
+            "es": "",
+            "fr": "",
+            "zh": "",
+            "ge": ""
+          },
+          "descriptionBody": {
+            "en": "<p>Hyperion Water Reclamation Plant, based in Los Angeles, is one of the largest water treatment facilities in the world. Hyperion uses some of the most advanced technology in its industry to minimize the ecological impact of waste water treatment. Rather than pump waste into waterways, Hyperion uses anaerobic digestion – a natural process that involves feeding bio-solid waste to bacteria in order to break it down into biogas.</p><br><p>Constellation will build and operate a cogeneration plant that uses Hyperion’s renewable biogas as the fuel source to generate both power and heat. The cogeneration unit will supply nearly 100% of the electricity and steam needed at the facility.</p>",
+            "es": "",
+            "fr": "",
+            "zh": "",
+            "ge": ""
+          },
+          "media": [
+            {
+              "title": {
+                "en": "Hyperion Waste Water Treatment",
+                "es": "",
+                "fr": "",
+                "zh": "",
+                "ge": ""
+              },
+              "image": "/content/dam/constellation/customer-stories/Poster Frames/Hyperion.00_00_09_11.Still001.jpg",
+              "video": "/content/dam/constellation/customer-stories/Videos/Hyperion_1080.mp4"
+            }
+          ]
+        },
+        {
+          "caseStudyName": {
+            "en": "Natural Gas: CNG",
+            "es": "",
+            "fr": "",
+            "zh": "",
+            "ge": ""
+          },
+          "descriptionTitle": {
+            "en": "Producing Less CO2 Emissions and Increased Cost Efficiencies Through CNG",
+            "es": "",
+            "fr": "",
+            "zh": "",
+            "ge": ""
+          },
+          "descriptionBody": {
+            "en": "<p>Compressed Natural Gas (CNG) is methane stored at a high pressure, and can be used as an alternative to Gasoline, Diesel Fuel &amp; Propane. CNG combustion can be more cost efficient and produces less CO2 emissions than those fuels.</p><br><p>Constellation acquired seven compressed natural gas fueling stations in Indiana and Ohio from CNG Fuel, Inc. in January 2015. Constellation owns and operates these stations as public/private-access fueling sites for regional and interstate transportation fleets.</p>",
+            "es": "",
+            "fr": "",
+            "zh": "",
+            "ge": ""
+          },
+          "media": [
+            {
+              "title": {
+                "en": "Compressed Natural Gas",
+                "es": "",
+                "fr": "",
+                "zh": "",
+                "ge": ""
+              },
+              "image": "/content/dam/constellation/customer-stories/Poster Frames/CNG.00_00_07_15.Still001.jpg",
+              "video": "/content/dam/constellation/customer-stories/Videos/CNG_1080.mp4"
+            },
+            {
+              "title": {
+                "en": "Compressed Natural Gas",
+                "es": "",
+                "fr": "",
+                "zh": "",
+                "ge": ""
+              },
+              "image": "/content/dam/constellation/customer-stories/Images/Natural_Gas_CNG_1.jpg",
+              "video": ""
+            }
+          ]
+        }
+      ],
+      "categories": [
+        "natgas"
+      ],
+      "modes": [
+        "day",
+        "night"
+      ],
+      "isSurpriseSpot": false,
+      "day": {
+        "heading": -0.36639748114419035,
+        "pitch": -0.014713204785407193,
+        "descriptionZoom": 0.19510905946548687,
+        "revealZoom": 0.6666760685343467
+      },
+      "night": {
+        "heading": -0.36639748114419035,
+        "pitch": -0.014713204785407193,
+        "descriptionZoom": 0.19510905946548687,
+        "revealZoom": 0.6666760685343467
+      }
+    },
+    {
+      "id": "106",
+      "title": {
+        "en": "Government",
+        "es": "",
+        "fr": "",
+        "zh": "",
+        "ge": ""
+      },
+      "caseStudies": [
+        {
+          "caseStudyName": {
+            "en": "CTV: City of Hartford",
+            "es": "",
+            "fr": "",
+            "zh": "",
+            "ge": ""
+          },
+          "descriptionTitle": {
+            "en": "Managing Electricity Costs and Emergency Power Through New Microgrid System",
+            "es": "",
+            "fr": "",
+            "zh": "",
+            "ge": ""
+          },
+          "descriptionBody": {
+            "en": "<p>The City of Hartford, Constellation and Bloom Energy recently completed a microgrid system in 2016, powered by fuel cells that will help manage electricity costs and supply emergency power to a portion of the city’s Parkville neighborhood. </p><br><p>During non-emergency operation, the 800-kilowatt microgrid system is designed to provide 100 percent of the electricity for Parkville Elementary School, Dwight Branch Library, Parkville Senior Center and Charter Oak Health Center. In the event of an electrical grid outage, the system will provide emergency power to these locations in addition to a local fuel station and grocery store.</p>",
+            "es": "",
+            "fr": "",
+            "zh": "",
+            "ge": ""
+          },
+          "media": [
+            {
+              "title": {
+                "en": "City of Hartford",
+                "es": "",
+                "fr": "",
+                "zh": "",
+                "ge": ""
+              },
+              "image": "/content/dam/constellation/customer-stories/Images/CTV_City_of_Hartford_1.jpg",
+              "video": ""
+            },
+            {
+              "title": {
+                "en": "City of Hartford",
+                "es": "",
+                "fr": "",
+                "zh": "",
+                "ge": ""
+              },
+              "image": "/content/dam/constellation/customer-stories/Images/CTV_City_of_Hartford_2.jpg",
+              "video": ""
+            }
+          ]
+        },
+        {
+          "caseStudyName": {
+            "en": "Energy Efficiency: Chester County",
+            "es": "",
+            "fr": "",
+            "zh": "",
+            "ge": ""
+          },
+          "descriptionTitle": {
+            "en": "Installing Energy and Water Conservation Improvements Leads to Cost Savings ",
+            "es": "",
+            "fr": "",
+            "zh": "",
+            "ge": ""
+          },
+          "descriptionBody": {
+            "en": "<p>Constellation and Chester County teamed up to complete $5.9 million in energy and water conservation measures that are expected to provide $6.7 million in energy and water cost savings over a 15-year period. The measures will help the County save an estimated 2.2 million kilowatt-hours in electricity and more than 18 million gallons of water every year. Constellation installed energy and water conservation and facility improvements at various buildings including the County administration building, the Historic Courthouse and the Government Service Center in West Chester, and the Henrietta Hankin Library. The conservation measures include smart electric meters, energy efficient lighting including LED fixtures, steam efficiency improvements, kitchen hood controls, insulation blankets, low flow toilets, sink and showers, cooling tower meters, HVAC equipment replacements, ozone laundry systems and building automation system upgrades. The measures are expected to avoid the creation of more than 1,500 tons of carbon dioxide during the term and have the same benefits to the environment as removing 319 passengers’ vehicles from the road annually, according to U.S. EPA data for the region.</p>",
+            "es": "",
+            "fr": "",
+            "zh": "",
+            "ge": ""
+          },
+          "media": [
+            {
+              "title": {
+                "en": "Chester County",
+                "es": "",
+                "fr": "",
+                "zh": "",
+                "ge": ""
+              },
+              "image": "/content/dam/constellation/customer-stories/Images/Energy_Efficiency_Chester_County .jpg",
+              "video": ""
+            }
+          ]
+        },
+        {
+          "caseStudyName": {
+            "en": "Natural Gas: City of Cincinnati",
+            "es": "",
+            "fr": "",
+            "zh": "",
+            "ge": ""
+          },
+          "descriptionTitle": {
+            "en": "Providing Natural Gas Supply to Cincinnati Residents and Small Businesses",
+            "es": "",
+            "fr": "",
+            "zh": "",
+            "ge": ""
+          },
+          "descriptionBody": {
+            "en": "<p>The City of Cincinnati selected Constellation to provide monthly variable-rate natural gas supply to more than 69,000 Cincinnati residents and small businesses following a competitive bidding process under the state’s natural gas choice governmental aggregation program. </p><br><p>Under the terms of the agreement, the program’s monthly variable rate is based on the New York Mercantile Exchange price for natural gas plus a fixed charge of $0.1163 per one hundred cubic feet (Ccf). Residents will be charged a $0.65 administration fee per month. At points during the 24-month agreement, if the city determines market conditions are favorable, the program rate may be converted to a fixed rate. </p><br><p>Natural gas supply under the new agreement began with October 2015 meter reads and continues through September 2017.</p>",
+            "es": "",
+            "fr": "",
+            "zh": "",
+            "ge": ""
+          },
+          "media": [
+            {
+              "title": {
+                "en": "City of Cincinnati",
+                "es": "",
+                "fr": "",
+                "zh": "",
+                "ge": ""
+              },
+              "image": "/content/dam/constellation/customer-stories/Images/Natural_Gas_City_of_Cincinnati.jpg",
+              "video": ""
+            }
+          ]
+        },
+        {
+          "caseStudyName": {
+            "en": "Solar: Los Angeles",
+            "es": "",
+            "fr": "",
+            "zh": "",
+            "ge": ""
+          },
+          "descriptionTitle": {
+            "en": "Enabling Building Owners to Host Solar Projects on Their Rooftops",
+            "es": "",
+            "fr": "",
+            "zh": "",
+            "ge": ""
+          },
+          "descriptionBody": {
+            "en": "<p>Constellation completed a 1.2-megawatt (DC) solar generation project at the Port of Los Angeles as part of Los Angeles’s rooftop solar Feed-in Tariff (FiT) program. The nation’s largest of its kind, the program enables building owners to host solar projects on their rooftops and sell the power generated to the Los Angeles Department of Water and Power (LADWP) for distribution on the city’s power grid. </p><br><p>This project required no upfront capital from the City. Constellation owns and operates the solar power system and LADWP will purchase the electricity generated by the solar panels through a 20-year power purchase agreement. The system is located within the Port on the roofs of two classically restored 1940s-era warehouses, one of which is home to CRAFTED, a large-scale permanent marketplace that supports more than 100 local artists. </p><br><p>The solar power system is composed of approximately 3,780 photovoltaic panels and is expected to generate approximately 2 million kilowatt-hours of electricity annually. Generating the same amount of electricity using nonrenewable sources would result in the release of approximately 1,880 tons of carbon dioxide, or the equivalent emissions from 400 passenger vehicles annually, according to LADWP’s estimates. </p><br><p>Constellation owns and operates nearly 70 megawatts of solar installation in the state and recently joined Mayor Garcetti to mark the start of construction of a separate 25-megawatt biogas-fueled cogeneration plant that will supply steam and electricity to power LA Sanitation’s Hyperion Water Reclamation Plant.</p>",
+            "es": "",
+            "fr": "",
+            "zh": "",
+            "ge": ""
+          },
+          "media": [
+            {
+              "title": {
+                "en": "Los Angeles",
+                "es": "",
+                "fr": "",
+                "zh": "",
+                "ge": ""
+              },
+              "image": "/content/dam/constellation/customer-stories/Images/Solar_Los_Angeles .jpg",
+              "video": ""
+            }
+          ]
+        },
+        {
+          "caseStudyName": {
+            "en": "Power/Electricity: Gov’t of Nashville &amp; Davidson Counties",
+            "es": "",
+            "fr": "",
+            "zh": "",
+            "ge": ""
+          },
+          "descriptionTitle": {
+            "en": "Partnering to Open a State-of-the-art District Energy System ",
+            "es": "",
+            "fr": "",
+            "zh": "",
+            "ge": ""
+          },
+          "descriptionBody": {
+            "en": "<p>World famous today as Music City, USA and home to the Grand Ole Opry, Nashville is a vibrant city of more than half a million people. </p><br><p>Nashville Metro Council worked with Constellation to design, develop and operate a new state-of- the-art $46 million district energy system. The facility, completed seven months ahead of schedule, began operation in December 2003 and was hailed by Nashville’s mayor as “a true catalyst for downtown economic development.” </p><br><p>The facility has the capacity to provide 23,400 tons of cooling and 260,000 lbs. /hr. of steam heat and saved Nashville approximately $66.9 million during its first ten years of operation. The facility currently provides heating and cooling for approximately 40 downtown buildings, including the State Capitol, the NFL’s Tennessee Titans stadium, the Gaylord Entertainment Center, home of the NHL Nashville Predators, and privately owned office buildings and hotels.</p>",
+            "es": "",
+            "fr": "",
+            "zh": "",
+            "ge": ""
+          },
+          "media": [
+            {
+              "title": {
+                "en": "Nashville",
+                "es": "",
+                "fr": "",
+                "zh": "",
+                "ge": ""
+              },
+              "image": "/content/dam/constellation/customer-stories/Images/Power_Electricity_Govt_Nashville_Davidson_Counties.jpg",
+              "video": ""
+            }
+          ]
+        }
+      ],
+      "categories": [
+        "enrgeffcy",
+        "pwrelec",
+        "sol",
+        "natgas",
+        "tch"
+      ],
+      "modes": [
+        "day",
+        "night"
+      ],
+      "isSurpriseSpot": false,
+      "day": {
+        "heading": 0.04181100885392652,
+        "pitch": -0.09391727800624607,
+        "descriptionZoom": 0.07297219222351599,
+        "revealZoom": 0.6666760685343467
+      },
+      "night": {
+        "heading": 0.04181100885392652,
+        "pitch": -0.09391727800624607,
+        "descriptionZoom": 0.07297219222351599,
+        "revealZoom": 0.6666760685343467
+      }
+    },
+    {
+      "id": "107",
+      "title": {
+        "en": "Education",
+        "es": "",
+        "fr": "",
+        "zh": "",
+        "ge": ""
+      },
+      "caseStudies": [
+        {
+          "caseStudyName": {
+            "en": "Solar: Amphitheater Public School",
+            "es": "",
+            "fr": "",
+            "zh": "",
+            "ge": ""
+          },
+          "descriptionTitle": {
+            "en": "Meeting Students Renewable Energy Needs",
+            "es": "",
+            "fr": "",
+            "zh": "",
+            "ge": ""
+          },
+          "descriptionBody": {
+            "en": "<p>More than 60 percent of Amphitheatre Public Schools’, one of Tucson’s largest school districts, energy needs are now being met with renewable energy thanks to Constellation’s recently completed 9.4-megawatt solar generation project.</p><br><p> The project required no upfront capital from the District. Constellation owns and operates the solar power system. The District purchases the electricity generated by the solar panels from Constellation under a 25-year solar services agreement. The project will result in an expected savings of $11 million to $23 million in energy costs for the District over the term of the agreement, according to the District. </p><br><p>This project includes real-time data monitoring capabilities that have been integrated into the school curriculum to help students learn how solar electricity works and about the benefits of renewable energy. Students can observe how solar energy is powering their schools, and learn about potential careers in Science, Technology, Engineering and Math (STEM) fields. </p><br><p>The solar power system, located across 24 school sites and support facilities, is comprised of approximately 29,000 photovoltaic panels located on carports, shade canopies and rooftops. The system is expected to generate approximately 16.5 million kilowatt-hours of electricity annually. Generating the same amount of electricity using nonrenewable sources would result in the release of approximately 16,830 tons of carbon dioxide, or the equivalent emissions from 3,543 passenger vehicles annually, according to U.S. EPA data for the region.</p>",
+            "es": "",
+            "fr": "",
+            "zh": "",
+            "ge": ""
+          },
+          "media": [
+            {
+              "title": {
+                "en": "Amphitheater Public School",
+                "es": "",
+                "fr": "",
+                "zh": "",
+                "ge": ""
+              },
+              "image": "/content/dam/constellation/customer-stories/Images/Solar_Amphitheater_Public_School .jpg",
+              "video": ""
+            }
+          ]
+        },
+        {
+          "caseStudyName": {
+            "en": "Energy Efficiency: Goucher College",
+            "es": "",
+            "fr": "",
+            "zh": "",
+            "ge": ""
+          },
+          "descriptionTitle": {
+            "en": "Supporting College's Mission of Environmental Sustainabilty with RECs",
+            "es": "",
+            "fr": "",
+            "zh": "",
+            "ge": ""
+          },
+          "descriptionBody": {
+            "en": "<p>Constellation supplied Goucher College in Towson, Md. with Renewable Energy Certificates (RECs) to match 25 percent of the college’s projected electricity consumption for three years in support of the college’s mission of environmental sustainability. </p><br><p>RECs are tradable environmental commodities. One REC represents one megawatt-hour of electricity generated from an eligible renewable energy source. Goucher’s RECs will come from national wind energy sources certified by Green-e Energy, an independent verification program for renewable energy.</p>",
+            "es": "",
+            "fr": "",
+            "zh": "",
+            "ge": ""
+          },
+          "media": [
+            {
+              "title": {
+                "en": "Goucher College",
+                "es": "",
+                "fr": "",
+                "zh": "",
+                "ge": ""
+              },
+              "image": "/content/dam/constellation/customer-stories/Images/Energy_Efficiency_Goucher_College.jpg",
+              "video": ""
+            }
+          ]
+        },
+        {
+          "caseStudyName": {
+            "en": "Energy Efficiency: Stevenson University",
+            "es": "",
+            "fr": "",
+            "zh": "",
+            "ge": ""
+          },
+          "descriptionTitle": {
+            "en": "Financing Infrastructure to Reduce Energy Consumption",
+            "es": "",
+            "fr": "",
+            "zh": "",
+            "ge": ""
+          },
+          "descriptionBody": {
+            "en": "<p>Stevenson University hoped to reduce their overall energy consumption to meet sustainability goals and lower costs, but struggled to fit energy efficiency improvements into their capital budget. Thanks to Constellation’s Efficiency Made Easy they were able to finance infrastructure and lightning upgrades across their 60-acre campus through their electricity supply contract with no upfront costs.</p>",
+            "es": "",
+            "fr": "",
+            "zh": "",
+            "ge": ""
+          },
+          "media": [
+            {
+              "title": {
+                "en": "Stevenson University",
+                "es": "",
+                "fr": "",
+                "zh": "",
+                "ge": ""
+              },
+              "image": "/content/dam/constellation/customer-stories/Images/Energy_Efficiency_Stevenson_University.jpg",
+              "video": ""
+            }
+          ]
+        },
+        {
+          "caseStudyName": {
+            "en": "Solar: Central School District",
+            "es": "",
+            "fr": "",
+            "zh": "",
+            "ge": ""
+          },
+          "descriptionTitle": {
+            "en": "Completing a Solar Generation Project Designed to Meet District's Energy needs",
+            "es": "",
+            "fr": "",
+            "zh": "",
+            "ge": ""
+          },
+          "descriptionBody": {
+            "en": "<p>Constellation completed a 1.5-megawatt DC solar generation project for Central School District in Racho Cucamonga, Ca. designed to generate more than 2 million kilowatt-hours of electricity annually, meeting 75 percent of the school district’s electricity needs. </p><br><p>The project required no upfront capital from the district. Solar firm PFMG Solar worked with Central School District to develop the project. Constellation financed the project’s development, owns and operates the system. Central School District will purchase the electricity generated by the system through a 25-year power purchase agreement with Constellation. </p><br><p>This solar power system is comprised of approximately 5,052 photovoltaic panels located at seven sites: Bear Gulch Elementary School, Central Elementary School, Coyote Canyon Elementary School, Cucamonga Middle School, Dona Merced Elementary School, Ruth Musser Middle School, and Valle Vista Elementary School. </p><br><p>The system is expected to avoid the creation of 2,008 tons of carbon dioxide annually—the equivalent emissions from 384 passenger vehicles, according to U.S Environmental Protection Agency data.</p>",
+            "es": "",
+            "fr": "",
+            "zh": "",
+            "ge": ""
+          },
+          "media": [
+            {
+              "title": {
+                "en": "Central School District ",
+                "es": "",
+                "fr": "",
+                "zh": "",
+                "ge": ""
+              },
+              "image": "/content/dam/constellation/customer-stories/Images/Solar_Central_School_District.jpg",
+              "video": ""
+            }
+          ]
+        }
+      ],
+      "categories": [
+        "sol",
+        "enrgeffcy"
+      ],
+      "modes": [
+        "day",
+        "night"
+      ],
+      "isSurpriseSpot": false,
+      "day": {
+        "heading": -0.229218398088733,
+        "pitch": -0.14077307010754653,
+        "descriptionZoom": 0.05700000323199542,
+        "revealZoom": 0.6666760685343467
+      },
+      "night": {
+        "heading": -0.229218398088733,
+        "pitch": -0.14077307010754653,
+        "descriptionZoom": 0.05700000323199542,
+        "revealZoom": 0.6666760685343467
+      }
+    },
+    {
+      "id": "108",
+      "title": {
+        "en": "Association",
+        "es": "",
+        "fr": "",
+        "zh": "",
+        "ge": ""
+      },
+      "caseStudies": [
+        {
+          "caseStudyName": {
+            "en": "Energy Efficiency: Newark Housing Authority",
+            "es": "",
+            "fr": "",
+            "zh": "",
+            "ge": ""
+          },
+          "descriptionTitle": {
+            "en": "Investing in Infrastructure to Modernize Housing to Meet Energy Needs",
+            "es": "",
+            "fr": "",
+            "zh": "",
+            "ge": ""
+          },
+          "descriptionBody": {
+            "en": "<p>Founded in 1938, the Newark Housing Authority (NHA) has been recently challenged by the aging infrastructure in a number of its apartment buildings and townhouses. Heating systems have reached near end-of-life in many buildings, resulting in costly repairs. Energy costs have been steep due to inefficiency, so the NHA set aggressive goals in 2006 to modernize and improve the efficiency of their buildings. As one of the largest public housing authorities in the U.S.—which includes a portfolio consisting of 414 buildings with 12,000 units that house 30,000 residents—NHA required substantial resources to meet their goals.</p><br><p>NHA entered into two Energy Performance Contracts (EPCs) with Constellation. The first in 2011 (Phase 1), and then based on its success, a second in 2015 (Phase 2) – resulting in the largest EPC ever approved by the U.S. Department of Housing and Urban Development (HUD). These EPCs enabled NHA to implement $134 million in energy efficiency improvements with no upfront capital as the projects were funded by the guaranteed utility cost savings from the efficiency upgrades. Energy Conservation Measures (ECMs) with short- and long-term paybacks were bundled to help fund infrastructure upgrades.</p>",
+            "es": "",
+            "fr": "",
+            "zh": "",
+            "ge": ""
+          },
+          "media": [
+            {
+              "title": {
+                "en": "Newark Housing Authority",
+                "es": "",
+                "fr": "",
+                "zh": "",
+                "ge": ""
+              },
+              "image": "/content/dam/constellation/customer-stories/Images/NewarkS.jpg",
+              "video": ""
+            }
+          ]
+        }
+      ],
+      "categories": [
+        "enrgeffcy"
+      ],
+      "modes": [
+        "day",
+        "night"
+      ],
+      "isSurpriseSpot": false,
+      "day": {
+        "heading": 0.14392045272018095,
+        "pitch": -0.026024224012424105,
+        "descriptionZoom": 0.13452044922146053,
+        "revealZoom": 0.6666760685343467
+      },
+      "night": {
+        "heading": 0.14392045272018095,
+        "pitch": -0.026024224012424105,
+        "descriptionZoom": 0.13452044922146053,
+        "revealZoom": 0.6666760685343467
+      }
+    },
+    {
+      "id": "109",
+      "title": {
+        "en": "Retail",
+        "es": "",
+        "fr": "",
+        "zh": "",
+        "ge": ""
+      },
+      "caseStudies": [
+        {
+          "caseStudyName": {
+            "en": "Power &amp; Electricity: Giant Eagle",
+            "es": "",
+            "fr": "",
+            "zh": "",
+            "ge": ""
+          },
+          "descriptionTitle": {
+            "en": "Achieving Budget Security Through Blended Strategies",
+            "es": "",
+            "fr": "",
+            "zh": "",
+            "ge": ""
+          },
+          "descriptionBody": {
+            "en": "<p>Giant Eagle is a regional supermarket chain with approximately 218 store locations in PA, OH, WV and MD. They were sourcing short term fixed-price agreements from multiple suppliers, but after experiencing extreme volatility, the grocer decided to evaluate other blended strategies that could give them the flexibility to take advantage of market opportunities while achieving the budget security they desired. Giant Eagle enlisted Constellation to develop a smart power purchasing strategy that addressed those challenges. </p><br><p>With Constellation’s expertise, the grocer implemented a strategy that was based on securing percentages of load instead a Flexible Index Solution. Today, Giant Eagle purchases a significant portion of their total load through this strategy which they actively manage with MVPe, an algorithmic program in which smaller percentages of load are purchased at regularly schedule intervals over a longer time horizon—similar to the concept of dollar cost averaging in investing. </p><br><p>The Flexible Index Solution coupled with MVPe helped Giant Eagle reduce exposure to electricity price volatility and now makes smaller, more frequent purchases without being burdened by each transaction decision. They set their goals in advanced, monitor progress and the program does most of the work.</p>",
+            "es": "",
+            "fr": "",
+            "zh": "",
+            "ge": ""
+          },
+          "media": [
+            {
+              "title": {
+                "en": "Giant Eagle",
+                "es": "",
+                "fr": "",
+                "zh": "",
+                "ge": ""
+              },
+              "image": "/content/dam/constellation/customer-stories/Images/Power_Electricity_Giant_Eagle_1.jpg",
+              "video": ""
+            },
+            {
+              "title": {
+                "en": "Giant Eagle",
+                "es": "",
+                "fr": "",
+                "zh": "",
+                "ge": ""
+              },
+              "image": "/content/dam/constellation/customer-stories/Images/Power_Electricity_Giant_Eagle_2.jpg",
+              "video": ""
+            }
+          ]
+        }
+      ],
+      "categories": [
+        "pwrelec"
+      ],
+      "modes": [
+        "day",
+        "night"
+      ],
+      "isSurpriseSpot": false,
+      "day": {
+        "heading": 0.3809943851842945,
+        "pitch": -0.09843653172684365,
+        "descriptionZoom": 0.08571356471430655,
+        "revealZoom": 0.6666760685343467
+      },
+      "night": {
+        "heading": 0.3809943851842945,
+        "pitch": -0.09843653172684365,
+        "descriptionZoom": 0.08571356471430655,
+        "revealZoom": 0.6666760685343467
+      }
+    },
+    {
+      "id": "110",
+      "title": {
+        "en": "Transportation",
+        "es": "",
+        "fr": "",
+        "zh": "",
+        "ge": ""
+      },
+      "caseStudies": [
+        {
+          "caseStudyName": {
+            "en": "Energy Efficiency: Newark Housing Authority",
+            "es": "",
+            "fr": "",
+            "zh": "",
+            "ge": ""
+          },
+          "descriptionTitle": {
+            "en": "Investing in Infrastructure to Modernize Housing to Meet Energy Needs",
+            "es": "",
+            "fr": "",
+            "zh": "",
+            "ge": ""
+          },
+          "descriptionBody": {
+            "en": "<p>Founded in 1938, the Newark Housing Authority (NHA) has been recently challenged by the aging infrastructure in a number of its apartment buildings and townhouses. Heating systems have reached near end-of-life in many buildings, resulting in costly repairs. Energy costs have been steep due to inefficiency, so the NHA set aggressive goals in 2006 to modernize and improve the efficiency of their buildings. As one of the largest public housing authorities in the U.S.—which includes a portfolio consisting of 414 buildings with 12,000 units that house 30,000 residents—NHA required substantial resources to meet their goals.</p><br><p>NHA entered into two Energy Performance Contracts (EPCs) with Constellation. The first in 2011 (Phase 1), and then based on its success, a second in 2015 (Phase 2) – resulting in the largest EPC ever approved by the U.S. Department of Housing and Urban Development (HUD). These EPCs enabled NHA to implement $134 million in energy efficiency improvements with no upfront capital as the projects were funded by the guaranteed utility cost savings from the efficiency upgrades. Energy Conservation Measures (ECMs) with short- and long-term paybacks were bundled to help fund infrastructure upgrades.</p>",
+            "es": "",
+            "fr": "",
+            "zh": "",
+            "ge": ""
+          },
+          "media": [
+            {
+              "title": {
+                "en": "Newark Housing Authority",
+                "es": "",
+                "fr": "",
+                "zh": "",
+                "ge": ""
+              },
+              "image": "/content/dam/constellation/customer-stories/Images/NewarkS.jpg",
+              "video": ""
+            }
+          ]
+        }
+      ],
+      "categories": [
+        "enrgeffcy"
+      ],
+      "modes": [
+        "day",
+        "night"
+      ],
+      "isSurpriseSpot": false,
+      "day": {
+        "heading": 0.22534534229765768,
+        "pitch": -0.20117585291819703,
+        "descriptionZoom": 0.08571356471430655,
+        "revealZoom": 0.6666760685343467
+      },
+      "night": {
+        "heading": 0.3809943851842945,
+        "pitch": -0.09843653172684365,
+        "descriptionZoom": 0.08571356471430655,
+        "revealZoom": 0.6666760685343467
+      }
+    },
+    {
+      "id": "111",
+      "title": {
+        "en": "Sustainabilty<br>Partners",
+        "es": "",
+        "fr": "",
+        "zh": "",
+        "ge": ""
+      },
+      "caseStudies": [
+        {
+          "caseStudyName": {
+            "en": "Energy Efficiency: Newark Housing Authority",
+            "es": "",
+            "fr": "",
+            "zh": "",
+            "ge": ""
+          },
+          "descriptionTitle": {
+            "en": "Investing in Infrastructure to Modernize Housing to Meet Energy Needs",
+            "es": "",
+            "fr": "",
+            "zh": "",
+            "ge": ""
+          },
+          "descriptionBody": {
+            "en": "<p>Founded in 1938, the Newark Housing Authority (NHA) has been recently challenged by the aging infrastructure in a number of its apartment buildings and townhouses. Heating systems have reached near end-of-life in many buildings, resulting in costly repairs. Energy costs have been steep due to inefficiency, so the NHA set aggressive goals in 2006 to modernize and improve the efficiency of their buildings. As one of the largest public housing authorities in the U.S.—which includes a portfolio consisting of 414 buildings with 12,000 units that house 30,000 residents—NHA required substantial resources to meet their goals.</p><br><p>NHA entered into two Energy Performance Contracts (EPCs) with Constellation. The first in 2011 (Phase 1), and then based on its success, a second in 2015 (Phase 2) – resulting in the largest EPC ever approved by the U.S. Department of Housing and Urban Development (HUD). These EPCs enabled NHA to implement $134 million in energy efficiency improvements with no upfront capital as the projects were funded by the guaranteed utility cost savings from the efficiency upgrades. Energy Conservation Measures (ECMs) with short- and long-term paybacks were bundled to help fund infrastructure upgrades.</p>",
+            "es": "",
+            "fr": "",
+            "zh": "",
+            "ge": ""
+          },
+          "media": [
+            {
+              "title": {
+                "en": "Newark Housing Authority",
+                "es": "",
+                "fr": "",
+                "zh": "",
+                "ge": ""
+              },
+              "image": "/content/dam/constellation/customer-stories/Images/NewarkS.jpg",
+              "video": ""
+            }
+          ]
+        }
+      ],
+      "categories": [
+        "enrgeffcy"
+      ],
+      "modes": [
+        "day",
+        "night"
+      ],
+      "isSurpriseSpot": false,
+      "day": {
+        "heading": 0.38282183565564765,
+        "pitch": 0.04045270009344208,
+        "descriptionZoom": 0.08571356471430655,
+        "revealZoom": 0.6666760685343467
+      },
+      "night": {
+        "heading": 0.3809943851842945,
+        "pitch": -0.09843653172684365,
+        "descriptionZoom": 0.08571356471430655,
+        "revealZoom": 0.6666760685343467
+      }
+    },
+    {
+      "id": "112",
+      "title": {
+        "en": "Distributed<br>Energy",
+        "es": "",
+        "fr": "",
+        "zh": "",
+        "ge": ""
+      },
+      "caseStudies": [
+        {
+          "caseStudyName": {
+            "en": "Energy Efficiency: Newark Housing Authority",
+            "es": "",
+            "fr": "",
+            "zh": "",
+            "ge": ""
+          },
+          "descriptionTitle": {
+            "en": "Investing in Infrastructure to Modernize Housing to Meet Energy Needs",
+            "es": "",
+            "fr": "",
+            "zh": "",
+            "ge": ""
+          },
+          "descriptionBody": {
+            "en": "<p>Founded in 1938, the Newark Housing Authority (NHA) has been recently challenged by the aging infrastructure in a number of its apartment buildings and townhouses. Heating systems have reached near end-of-life in many buildings, resulting in costly repairs. Energy costs have been steep due to inefficiency, so the NHA set aggressive goals in 2006 to modernize and improve the efficiency of their buildings. As one of the largest public housing authorities in the U.S.—which includes a portfolio consisting of 414 buildings with 12,000 units that house 30,000 residents—NHA required substantial resources to meet their goals.</p><br><p>NHA entered into two Energy Performance Contracts (EPCs) with Constellation. The first in 2011 (Phase 1), and then based on its success, a second in 2015 (Phase 2) – resulting in the largest EPC ever approved by the U.S. Department of Housing and Urban Development (HUD). These EPCs enabled NHA to implement $134 million in energy efficiency improvements with no upfront capital as the projects were funded by the guaranteed utility cost savings from the efficiency upgrades. Energy Conservation Measures (ECMs) with short- and long-term paybacks were bundled to help fund infrastructure upgrades.</p>",
+            "es": "",
+            "fr": "",
+            "zh": "",
+            "ge": ""
+          },
+          "media": [
+            {
+              "title": {
+                "en": "Newark Housing Authority",
+                "es": "",
+                "fr": "",
+                "zh": "",
+                "ge": ""
+              },
+              "image": "/content/dam/constellation/customer-stories/Images/NewarkS.jpg",
+              "video": ""
+            }
+          ]
+        }
+      ],
+      "categories": [
+        "enrgeffcy"
+      ],
+      "modes": [
+        "day",
+        "night"
+      ],
+      "isSurpriseSpot": false,
+      "day": {
+        "heading": -0.39752215554165105,
+        "pitch": 0.15923893223234747,
+        "descriptionZoom": 0.08571356471430655,
+        "revealZoom": 0.6666760685343467
+      },
+      "night": {
+        "heading": 0.3809943851842945,
+        "pitch": -0.09843653172684365,
+        "descriptionZoom": 0.08571356471430655,
+        "revealZoom": 0.6666760685343467
+      }
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+    "default": {
+        "horizontalLookAt": "0",
+        "northLookAt": "0",
+        "editorModeOn": false,
+        "kioskNumber": 1,
+        "persistence": {
+            "launchCommand": "%USERPROFILE%\\AppData\\Local\\Chromium\\Application\\chrome.exe --start-fullscreen --incognito --disable-pinch --kiosk --overscroll-history-navigation=0 http://localhost:8000/app/index.html",
+            "startupTimeout": 10,
+            "heartbeatTimeout": 5,
+            "restartSchedule": "35 9 * * *"
+        },
+        "logging": {
+            "loggly": {
+                "enabled": false
+            },
+            "mail": {
+                "enabled": true,
+                "ssl": true,
+                "subject": "EBX TABLET: {hostname}",
+                "host": "smtp.sendgrid.net",
+                "username": "stimulant-ebx",
+                "from": "support@stimulant.com",
+                "password": "cmNM4L?g6zTFrAvq",
+                "to": "support+ebx@stimulant.com"
+            },
+            "console": {
+                "enabled": true
+            },
+            "file": {
+                "enabled": true
+            },
+            "google": {
+                "enabled": true,
+                "accountId": "UA-46432303-15"
+            },
+            "eventFile": {
+                "enabled": true
+            },
+            "screenshots": {
+                "enabled": true
+            }
+        },
+        "plugin": "server.js",
+        "permissions": {
+            "exelon": {
+                "password": "energy",
+                "app": true,
+                "computer": true
+            }
+        }
+    },
+    "dev": {
+        "editorModeOn": false,
+        "kioskNumber": 1,
+        "horizontalLookAt": "0",
+        "northLookAt": "0",
+        "permissions": null,
+        "persistence": {
+            "launchCommand": "%USERPROFILE%\\AppData\\Local\\Chromium\\Application\\chrome.exe --start-fullscreen --incognito --disable-pinch --overscroll-history-navigation=0 http://localhost:8000/app/index.html",
+            "startupTimeout": 0,
+            "heartbeatTimeout": 0
+        },
+        "logging": {
+            "file": {
+                "enabled": false
+            },
+            "eventLog": {
+                "enabled": false
+            },
+            "google": {
+                "enabled": false
+            },
+            "eventFile": {
+                "enabled": false
+            },
+            "loggly": {
+                "enabled": false
+            },
+            "mail": {
+                "enabled": false
+            },
+            "screenshots": {
+                "enabled": false
+            }
+        }
+    },
+    "production": {
+        "contentPath": "d:\\cmscontent",
+        "persistence": {
+            "postLaunchCommand": "start taskkill /f /im explorer.exe"
+        },
+        "logging": {
+            "file": {
+                "enabled": true,
+                "filename": "D:/ebx-logs/server"
+            },
+            "eventFile": {
+                "enabled": true,
+                "filename": "D:/ebx-logs/event-{date}.tsv"
+            },
+            "screenshots": {
+                "enabled": true,
+                "filename": "D:/ebx-logs/capture-{date}.jpg"
+            }
+        }
+    }
+}
