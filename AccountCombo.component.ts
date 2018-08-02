@@ -39,12 +39,14 @@ export class AccountComboComponent implements OnInit {
   }
 
   cloneAccountCombo(id: number): void {
-    var comboCopy =  this.accountService.getAccountCombo(id)
-      .subscribe(account_Combo => this.account_Combo = account_Combo);
-    this.accountService.addAccountCombo(this.account_Combo);
-
-
-  }
+    this.accountService.getAccountCombo(id)
+      .subscribe(account_Combo => 
+         // shallow clone object
+         const newCombo = { ... account_Combo };
+         // id changes or whatever
+         this.accountService.addAccountCombo(newCombo);
+      }); 
+  } 
 
   changeActiveStatus(value): void {
 
