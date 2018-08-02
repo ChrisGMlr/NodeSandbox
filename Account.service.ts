@@ -14,7 +14,7 @@ const httpOptions = {
 export class AccountService {
 
   private AccountsUrl = 'api/Accounts';  // URL to web api
-  private SearchType = '';
+  private SearchType = "";
   private activeStatus = 1;
   constructor(
     private http: HttpClient) { }
@@ -31,7 +31,7 @@ export class AccountService {
       }
       catch{
         console.log("SearchType was null");
-        return '';
+        return "";
       }
     }
 
@@ -45,15 +45,13 @@ export class AccountService {
       .pipe(
         catchError(this.handleError('getAccountCombos', []))
       );
-
   }
 
   /** GET Account Combo by id. Will 404 if id not found*/
-  getAccountCombo(id: number): Account_Combo {
-    const url = `${this.AccountsUrl}/${id}`;
+  getAccountCombo(id: number): Observable<Account_Combo> {
     return this.getAccountCombos()
       .pipe(
-        map(actCombos => actCombos.filter(ActCombo => ActCombo.id == id)[0]),
+        map(actCombos as Account_Combo[] => actCombos.filter(ActCombo => ActCombo.id == id)[0]),
         catchError(this.handleError('getAccountCombo', []))
       );
   }
